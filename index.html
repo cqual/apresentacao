@@ -1,0 +1,5617 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="pt-br"><head><style type="text/css">.tippy-touch{cursor:pointer!important}.tippy-notransition{transition:none!important}.tippy-popper{max-width:350px;-webkit-perspective:700px;perspective:700px;z-index:9999;outline:0;transition-timing-function:cubic-bezier(.165,.84,.44,1);pointer-events:none;line-height:1.4}.tippy-popper[data-html]{max-width:96%;max-width:calc(100% - 20px)}.tippy-popper[x-placement^=top] .tippy-backdrop{border-radius:40% 40% 0 0}.tippy-popper[x-placement^=top] .tippy-roundarrow{bottom:-8px;-webkit-transform-origin:50% 0;transform-origin:50% 0}.tippy-popper[x-placement^=top] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(180deg);transform:rotate(180deg)}.tippy-popper[x-placement^=top] .tippy-arrow{border-top:7px solid #333;border-right:7px solid transparent;border-left:7px solid transparent;bottom:-7px;margin:0 6px;-webkit-transform-origin:50% 0;transform-origin:50% 0}.tippy-popper[x-placement^=top] .tippy-backdrop{-webkit-transform-origin:0 90%;transform-origin:0 90%}.tippy-popper[x-placement^=top] .tippy-backdrop[data-state=visible]{-webkit-transform:scale(6) translate(-50%,25%);transform:scale(6) translate(-50%,25%);opacity:1}.tippy-popper[x-placement^=top] .tippy-backdrop[data-state=hidden]{-webkit-transform:scale(1) translate(-50%,25%);transform:scale(1) translate(-50%,25%);opacity:0}.tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=visible]{opacity:1;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=hidden]{opacity:0;-webkit-transform:translateY(-20px);transform:translateY(-20px)}.tippy-popper[x-placement^=top] [data-animation=perspective]{-webkit-transform-origin:bottom;transform-origin:bottom}.tippy-popper[x-placement^=top] [data-animation=perspective][data-state=visible]{opacity:1;-webkit-transform:translateY(-10px) rotateX(0);transform:translateY(-10px) rotateX(0)}.tippy-popper[x-placement^=top] [data-animation=perspective][data-state=hidden]{opacity:0;-webkit-transform:translateY(0) rotateX(90deg);transform:translateY(0) rotateX(90deg)}.tippy-popper[x-placement^=top] [data-animation=fade][data-state=visible]{opacity:1;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=fade][data-state=hidden]{opacity:0;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=visible]{opacity:1;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=hidden]{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper[x-placement^=top] [data-animation=scale][data-state=visible]{opacity:1;-webkit-transform:translateY(-10px) scale(1);transform:translateY(-10px) scale(1)}.tippy-popper[x-placement^=top] [data-animation=scale][data-state=hidden]{opacity:0;-webkit-transform:translateY(0) scale(0);transform:translateY(0) scale(0)}.tippy-popper[x-placement^=bottom] .tippy-backdrop{border-radius:0 0 30% 30%}.tippy-popper[x-placement^=bottom] .tippy-roundarrow{top:-8px;-webkit-transform-origin:50% 100%;transform-origin:50% 100%}.tippy-popper[x-placement^=bottom] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(0);transform:rotate(0)}.tippy-popper[x-placement^=bottom] .tippy-arrow{border-bottom:7px solid #333;border-right:7px solid transparent;border-left:7px solid transparent;top:-7px;margin:0 6px;-webkit-transform-origin:50% 100%;transform-origin:50% 100%}.tippy-popper[x-placement^=bottom] .tippy-backdrop{-webkit-transform-origin:0 -90%;transform-origin:0 -90%}.tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=visible]{-webkit-transform:scale(6) translate(-50%,-125%);transform:scale(6) translate(-50%,-125%);opacity:1}.tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=hidden]{-webkit-transform:scale(1) translate(-50%,-125%);transform:scale(1) translate(-50%,-125%);opacity:0}.tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=visible]{opacity:1;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=hidden]{opacity:0;-webkit-transform:translateY(20px);transform:translateY(20px)}.tippy-popper[x-placement^=bottom] [data-animation=perspective]{-webkit-transform-origin:top;transform-origin:top}.tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=visible]{opacity:1;-webkit-transform:translateY(10px) rotateX(0);transform:translateY(10px) rotateX(0)}.tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=hidden]{opacity:0;-webkit-transform:translateY(0) rotateX(-90deg);transform:translateY(0) rotateX(-90deg)}.tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=visible]{opacity:1;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=hidden]{opacity:0;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=visible]{opacity:1;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=hidden]{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=visible]{opacity:1;-webkit-transform:translateY(10px) scale(1);transform:translateY(10px) scale(1)}.tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=hidden]{opacity:0;-webkit-transform:translateY(0) scale(0);transform:translateY(0) scale(0)}.tippy-popper[x-placement^=left] .tippy-backdrop{border-radius:50% 0 0 50%}.tippy-popper[x-placement^=left] .tippy-roundarrow{right:-16px;-webkit-transform-origin:33.33333333% 50%;transform-origin:33.33333333% 50%}.tippy-popper[x-placement^=left] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.tippy-popper[x-placement^=left] .tippy-arrow{border-left:7px solid #333;border-top:7px solid transparent;border-bottom:7px solid transparent;right:-7px;margin:3px 0;-webkit-transform-origin:0 50%;transform-origin:0 50%}.tippy-popper[x-placement^=left] .tippy-backdrop{-webkit-transform-origin:100% 0;transform-origin:100% 0}.tippy-popper[x-placement^=left] .tippy-backdrop[data-state=visible]{-webkit-transform:scale(6) translate(40%,-50%);transform:scale(6) translate(40%,-50%);opacity:1}.tippy-popper[x-placement^=left] .tippy-backdrop[data-state=hidden]{-webkit-transform:scale(1.5) translate(40%,-50%);transform:scale(1.5) translate(40%,-50%);opacity:0}.tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=visible]{opacity:1;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=hidden]{opacity:0;-webkit-transform:translateX(-20px);transform:translateX(-20px)}.tippy-popper[x-placement^=left] [data-animation=perspective]{-webkit-transform-origin:right;transform-origin:right}.tippy-popper[x-placement^=left] [data-animation=perspective][data-state=visible]{opacity:1;-webkit-transform:translateX(-10px) rotateY(0);transform:translateX(-10px) rotateY(0)}.tippy-popper[x-placement^=left] [data-animation=perspective][data-state=hidden]{opacity:0;-webkit-transform:translateX(0) rotateY(-90deg);transform:translateX(0) rotateY(-90deg)}.tippy-popper[x-placement^=left] [data-animation=fade][data-state=visible]{opacity:1;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=fade][data-state=hidden]{opacity:0;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=visible]{opacity:1;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=hidden]{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper[x-placement^=left] [data-animation=scale][data-state=visible]{opacity:1;-webkit-transform:translateX(-10px) scale(1);transform:translateX(-10px) scale(1)}.tippy-popper[x-placement^=left] [data-animation=scale][data-state=hidden]{opacity:0;-webkit-transform:translateX(0) scale(0);transform:translateX(0) scale(0)}.tippy-popper[x-placement^=right] .tippy-backdrop{border-radius:0 50% 50% 0}.tippy-popper[x-placement^=right] .tippy-roundarrow{left:-16px;-webkit-transform-origin:66.66666666% 50%;transform-origin:66.66666666% 50%}.tippy-popper[x-placement^=right] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}.tippy-popper[x-placement^=right] .tippy-arrow{border-right:7px solid #333;border-top:7px solid transparent;border-bottom:7px solid transparent;left:-7px;margin:3px 0;-webkit-transform-origin:100% 50%;transform-origin:100% 50%}.tippy-popper[x-placement^=right] .tippy-backdrop{-webkit-transform-origin:-100% 0;transform-origin:-100% 0}.tippy-popper[x-placement^=right] .tippy-backdrop[data-state=visible]{-webkit-transform:scale(6) translate(-140%,-50%);transform:scale(6) translate(-140%,-50%);opacity:1}.tippy-popper[x-placement^=right] .tippy-backdrop[data-state=hidden]{-webkit-transform:scale(1.5) translate(-140%,-50%);transform:scale(1.5) translate(-140%,-50%);opacity:0}.tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=visible]{opacity:1;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=hidden]{opacity:0;-webkit-transform:translateX(20px);transform:translateX(20px)}.tippy-popper[x-placement^=right] [data-animation=perspective]{-webkit-transform-origin:left;transform-origin:left}.tippy-popper[x-placement^=right] [data-animation=perspective][data-state=visible]{opacity:1;-webkit-transform:translateX(10px) rotateY(0);transform:translateX(10px) rotateY(0)}.tippy-popper[x-placement^=right] [data-animation=perspective][data-state=hidden]{opacity:0;-webkit-transform:translateX(0) rotateY(90deg);transform:translateX(0) rotateY(90deg)}.tippy-popper[x-placement^=right] [data-animation=fade][data-state=visible]{opacity:1;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=fade][data-state=hidden]{opacity:0;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=visible]{opacity:1;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=hidden]{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper[x-placement^=right] [data-animation=scale][data-state=visible]{opacity:1;-webkit-transform:translateX(10px) scale(1);transform:translateX(10px) scale(1)}.tippy-popper[x-placement^=right] [data-animation=scale][data-state=hidden]{opacity:0;-webkit-transform:translateX(0) scale(0);transform:translateX(0) scale(0)}.tippy-tooltip{position:relative;color:#fff;border-radius:4px;font-size:.9rem;padding:.3rem .6rem;text-align:center;will-change:transform;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#333}.tippy-tooltip[data-size=small]{padding:.2rem .4rem;font-size:.75rem}.tippy-tooltip[data-size=large]{padding:.4rem .8rem;font-size:1rem}.tippy-tooltip[data-animatefill]{overflow:hidden;background-color:transparent}.tippy-tooltip[data-animatefill] .tippy-content{transition:-webkit-clip-path cubic-bezier(.46,.1,.52,.98);transition:clip-path cubic-bezier(.46,.1,.52,.98);transition:clip-path cubic-bezier(.46,.1,.52,.98),-webkit-clip-path cubic-bezier(.46,.1,.52,.98)}.tippy-tooltip[data-interactive],.tippy-tooltip[data-interactive] path{pointer-events:auto}.tippy-tooltip[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.53,2,.36,.85)}.tippy-tooltip[data-inertia][data-state=hidden]{transition-timing-function:ease}.tippy-arrow,.tippy-roundarrow{position:absolute;width:0;height:0}.tippy-roundarrow{width:24px;height:8px;fill:#333;pointer-events:none}.tippy-backdrop{position:absolute;will-change:transform;background-color:#333;border-radius:50%;width:26%;left:50%;top:50%;z-index:-1;transition:all cubic-bezier(.46,.1,.52,.98);-webkit-backface-visibility:hidden;backface-visibility:hidden}.tippy-backdrop:after{content:"";float:left;padding-top:100%}body:not(.tippy-touch) .tippy-tooltip[data-animatefill][data-state=visible] .tippy-content{-webkit-clip-path:ellipse(100% 100% at 50% 50%);clip-path:ellipse(100% 100% at 50% 50%)}body:not(.tippy-touch) .tippy-tooltip[data-animatefill][data-state=hidden] .tippy-content{-webkit-clip-path:ellipse(5% 50% at 50% 50%);clip-path:ellipse(5% 50% at 50% 50%)}body:not(.tippy-touch) .tippy-popper[x-placement=right] .tippy-tooltip[data-animatefill][data-state=visible] .tippy-content{-webkit-clip-path:ellipse(135% 100% at 0 50%);clip-path:ellipse(135% 100% at 0 50%)}body:not(.tippy-touch) .tippy-popper[x-placement=right] .tippy-tooltip[data-animatefill][data-state=hidden] .tippy-content{-webkit-clip-path:ellipse(40% 100% at 0 50%);clip-path:ellipse(40% 100% at 0 50%)}body:not(.tippy-touch) .tippy-popper[x-placement=left] .tippy-tooltip[data-animatefill][data-state=visible] .tippy-content{-webkit-clip-path:ellipse(135% 100% at 100% 50%);clip-path:ellipse(135% 100% at 100% 50%)}body:not(.tippy-touch) .tippy-popper[x-placement=left] .tippy-tooltip[data-animatefill][data-state=hidden] .tippy-content{-webkit-clip-path:ellipse(40% 100% at 100% 50%);clip-path:ellipse(40% 100% at 100% 50%)}@media (max-width:360px){.tippy-popper{max-width:96%;max-width:calc(100% - 20px)}}</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    
+        <base href="http://www.cgu.gov.br/"><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        <meta property="og:title" content="CGU">
+<meta property="og:description" content="Site da Controladoria-Geral da União (CGU), órgão do Governo Federal responsável pela defesa do patrimônio público, transparência e combate à corrupção.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.cgu.gov.br/cgu">
+<meta property="og:image" content="http://www.cgu.gov.br/@@sociallike-fallback-image/cgu.png">
+
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content=" Controladoria-Geral da União">
+
+
+  
+
+  
+  
+  <script src="https://connect.facebook.net/pt_BR/all.js?hash=65228102e98077650035f3519da8b4ef" async="" crossorigin="anonymous"></script><script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script><script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflUFVyEP/www-widgetapi.js" async=""></script><script>
+    (function() {
+        var po = document.createElement('script');
+        po.async = true;
+        po.src = document.location.protocol + '//connect.facebook.net/pt_BR/all.js#xfbml=1';
+        var head = document.getElementsByTagName('head')[0];
+        head.appendChild(po);
+    }());
+    </script><script async="" src="http://connect.facebook.net/pt_BR/all.js#xfbml=1"></script>
+
+
+
+  
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@cguonline">
+  
+
+
+
+
+<meta name="description" content="Site da Controladoria-Geral da União (CGU), órgão do Governo Federal responsável pela defesa do patrimônio público, transparência e combate à corrupção.">
+<meta property="creator.productor" content="http://www.cgu.gov.br">
+
+
+
+  
+    <style type="text/css" media="all">@import url(http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcejquery-cachekey-05cbd95de9b3aa8476df61c1974c7323.css);</style>
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/reset-cachekey-052a20bef02bbb636740ee9b53a54671.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/base-cachekey-f10a270f4e23897687634d4d1bbadc46.css">
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.overlays-cachekey-7db545fcb46a7e7c6790cdfa5ee329c3.css" media="screen">
+    <style type="text/css" media="screen">@import url(http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.autocompletejquery.autocomplete-cachekey-9a5d855fdc0100160339f8b286f1c3bf.css);</style>
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcecollection-cachekey-ab59e6c3acfa62ee55e0e256f683a39a.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcebrasil.gov.barraazul-cachekey-75139459fa2840870b306a9cee87e506.css" media="all" title="Brasil.gov.br: Barra Azul">
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcebrasil.gov.barraverde-cachekey-fc054e11af5168dd5c517f6ae0663779.css" media="all" title="Brasil.gov.br: Barra Verde">
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcebrasil.gov.barracinza-cachekey-783cf9965a26574591e7135f205c58d2.css" media="all" title="Brasil.gov.br: Barra Cinza">
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcebrasil.gov.barrapreto-cachekey-75fef9e02e3dbeebabc2f6cc085231a2.css" media="all" title="Brasil.gov.br: Barra Preta">
+    <style type="text/css" media="screen">@import url(http://www.cgu.gov.br/portal_css/Sunburst%20Theme/jquery.autocomplete-cachekey-e086706d8ccb82c2399a5d62b37f53ec.css);</style>
+    <style type="text/css" media="screen">@import url(http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourceProducts.Doormat.stylesheetsdoormat-cachekey-3c31c3ca386c298a4c8096621c5e6256.css);</style>
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/embedder-cachekey-82274f0857eb54b521062b7b3d8e8ea4.css" media="screen">
+    <style type="text/css" media="screen">@import url(http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcecollective.pollscsscollective.polls-cachekey-e941000347509f88c6ea31f5d59f22bd.css);</style>
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/ploneCustom-cachekey-329c1a8547acf304b01d32c4b73f2de1.css" media="all">
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/IEFixes-cachekey-645ab746abe6f06b80b6512b408e9648.css" media="screen" />
+        <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.datetimestyles-cachekey-9104d43a2a5064a6eb4a7977f8a61230.css">
+    <style type="text/css" media="screen">@import url(http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcecollective.nitfnitf-cachekey-c18033fb4d9eab451d4ca040322fb729.css);</style>
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcebrasil.gov.portletscssmain-cachekey-44e40ba9d9557c5deb3d74bf6d495f14.css" media="screen">
+    <style type="text/css" media="screen">@import url(http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcecalendar_stylescalendar-cachekey-8a5172d0f23f3280bb0e52daca912c9f.css);</style>
+    <link rel="stylesheet" type="text/css" href="http://www.cgu.gov.br/portal_css/Sunburst%20Theme/resourcebrasil.gov.agendaagenda-print-cachekey-cc4531024079b7549ba5d87d19d388d6.css" media="print">
+
+  
+  
+    <script type="text/javascript" src="http://www.cgu.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-7b0695ef49643158a80f66eee03ceb67.js"></script>
+    <script type="text/javascript" src="http://www.cgu.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.formwidget.querystring.querywidget-cachekey-8edbc4e6eb946d1d81917a88fc8ebef5.js"></script>
+    <script type="text/javascript" src="http://www.cgu.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.formwidget.contenttreecontenttree-cachekey-2a64d492c023c9c74ff7448efda02312.js"></script>
+    <script type="text/javascript" src="http://www.cgu.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.js.bootstrapjsbootstrap.min-cachekey-c8f8da5e3b8605fc4f243caab630005f.js"></script>
+    <script type="text/javascript" src="http://www.cgu.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.pollsjsjquery.flot-cachekey-5e15da0b2a034bdd7fddf6043255775a.js"></script>
+    <script type="text/javascript" src="http://www.cgu.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.pollsjsjquery.tasksplease-cachekey-ba1ebacba81b4add21dbc108deffd97f.js"></script>
+    <script type="text/javascript" src="http://www.cgu.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.formwidget.recurrencejquery.tmpl-beta1-cachekey-f043039cd827a70a46f43cdb274c7367.js"></script>
+
+
+
+  <link rel="stylesheet" href="http://www.cgu.gov.br/++resource++brasil.gov.agenda/brasilgovagenda-b80d378.css">
+
+
+  <script defer="defer" src="http://www.cgu.gov.br/++resource++brasil.gov.agenda/brasilgovagenda-b80d378.js"></script>
+
+
+
+  <link rel="stylesheet" href="http://www.cgu.gov.br/++resource++brasil.gov.portal/brasilgovportal-b9966f9.css">
+
+
+  <script defer="defer" src="http://www.cgu.gov.br/++resource++brasil.gov.portal/brasilgovportal-b9966f9.js"></script>
+
+
+
+  <link rel="stylesheet" href="http://www.cgu.gov.br/++resource++brasil.gov.tiles/brasilgovtiles-fadba58.css">
+
+
+  <script defer="defer" src="http://www.cgu.gov.br/++resource++brasil.gov.tiles/brasilgovtiles-fadba58.js"></script>
+
+
+<title>CGU —  Controladoria-Geral da União</title>
+
+<link rel="http://purl.org/dc/terms/subject http://schema.org/about http://xmlns.com/foaf/0.1/primaryTopic" href="http://vocab.e.gov.br/2011/03/vcge#esquema">
+        
+    <link rel="author" href="http://www.cgu.gov.br/author/admin" title="Informações do Autor">
+
+
+    <link rel="canonical" href="http://www.cgu.gov.br">
+
+    
+    
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional['pt-BR'],
+                {dateFormat: 'dd/mm/yy'}));
+            }
+        });
+        </script>
+
+
+
+    <link rel="alternate" href="http://www.cgu.gov.br/RSS" title=" Controladoria-Geral da União - RSS 1.0" type="application/rss+xml">
+
+    <link rel="alternate" href="http://www.cgu.gov.br/rss.xml" title=" Controladoria-Geral da União - RSS 2.0" type="application/rss+xml">
+
+    <link rel="alternate" href="http://www.cgu.gov.br/atom.xml" title=" Controladoria-Geral da União - Atom" type="application/rss+xml">
+
+
+    <link rel="search" href="http://www.cgu.gov.br/@@search" title="Buscar neste site">
+
+
+
+        
+        
+        
+  
+
+        
+        
+
+        
+        <meta name="generator" content="Plone - http://plone.org">
+    
+
+    <meta charset="utf-8">
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="apple-touch-icon" sizes="180x180" href="/++theme++padrao/++theme++padrao/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/++theme++padrao/++theme++padrao/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/++theme++padrao/++theme++padrao/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/++theme++padrao/++theme++padrao/favicons/manifest.json">
+    <link rel="mask-icon" href="/++theme++padrao/++theme++padrao/favicons/safari-pinned-tab.svg" color="#00a300">
+    <meta name="msapplication-config" content="++theme++padrao/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#00a300">
+    <script src="https://www.youtube.com/iframe_api"></script>
+  <link href="/++theme++padrao/++theme++padrao/brasilgovtemas-3b1e9dc.css" rel="stylesheet"><style type="text/css" media="all">#barra-brasil div,#barra-brasil a,#barra-brasil ul,#barra-brasil li{margin:0;padding:0;font-size:100%;font-family:inherit;vertical-align:baseline;font-size:1rem}#barra-brasil ul{list-style:none}@font-face{font-family:"Raleway";font-weight:bold;src:url("//barra.brasil.gov.br/static/Raleway-Bold.woff") format("woff")}.conteudo-escondido{display:block;background:transparent;background-image:none;background-image:none;border:none;height:0.1em;overflow:hidden;padding:0;margin:-0.1em 0 0 -0.1em;width:1px}#barra-brasil div,#barra-brasil a,#barra-brasil ul,#barra-brasil li{margin:0;padding:0;font-size:100%;font-family:inherit;vertical-align:baseline;font-size:1rem}#barra-brasil ul{list-style:none}#barra-brasil{background-color:#071D41;box-sizing:content-box;display:flex;flex-direction:column-reverse;align-items:center}#barra-brasil .conteudo-barra-brasil{height:40px;width:95%;max-width:1150px;margin:0 auto;height:40px;display:flex;flex-flow:row nowrap;align-items:center;justify-content:space-between}#barra-brasil .pic-gov{background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2250%22%20height%3D%2219%22%20version%3D%221.1%22%20viewBox%3D%220%200%2019%2050%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20transform%3D%22matrix%28.23%200%200%20.23%20-153%20-147%29%22%3E%3Cg%20transform%3D%22matrix%281.3%200%200%201.3%20-200%20-209%29%22%20fill%3D%22%23fff%22%3E%3Cpath%20d%3D%22m576%20765c0%2034-17%2046-50%2046-14%200-25-2.9-32-5.3l1.4-23c8.8%204.3%2016%206.9%2028%206.9%2017%200%2026-7.9%2026-24v-4.5h-.32c-6.9%209.8-17%2014-28%2014-23%200-37-17-37-42%200-25%2012-44%2038-44%2012%200%2022%206.8%2028%2017h.32v-15h26v74m-46-12c10%200%2018-8.7%2018-22%200-9.3-5.5-20-18-20-11%200-16%209.5-16%2021%200%2013%207.7%2020%2016%2020z%22%2F%3E%3Cpath%20d%3D%22m662%20686h28l22%2062%2022-62h28l-35%2089h-31l-34-89%22%2F%3E%3Cpath%20d%3D%22m576%20732c0-28%2021-44%2049-44s49%2016%2049%2044c0%2028-21%2044-49%2044-28%200-49-16-49-44m68%200c0-13-5.5-24-19-24s-19%2011-19%2024c0%2012%205.5%2024%2019%2024s19-11%2019-24z%22%2F%3E%3Cpath%20d%3D%22m760%20762c0%207.6-6.2%2014-14%2014-7.6%200-14-6.2-14-14%200-7.6%206.2-14%2014-14%207.6%200%2014%206.2%2014%2014z%22%2F%3E%3Cpath%20d%3D%22m762%20654h29v48h.32c7.4-9.3%2017-13%2029-13%2023%200%2036%2022%2036%2042%200%2025-13%2045-38%2045-13%200-25-7.6-29-17h-.32v15h-27v-121m47%2057c-11%200-18%209.3-18%2022%200%2012%208%2021%2018%2021%2011%200%2018-9.2%2018-22%200-11-6.3-21-18-21z%22%2F%3E%3Cpath%20d%3D%22m916%20714c-3.2-.97-6.4-.97-9.8-.97-14%200-21%209.8-21%2026v35h-29v-84h26v15h.32c5-11%2012-17%2025-17%203.4%200%206.9.48%209.8.96l-1.4%2024z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E");display:block;height:19px;min-width:50px;margin-right:10px;line-height:0;font-size:0;color:transparent}#barra-brasil .conteudo-barra-brasil nav{overflow-x:auto}#barra-brasil .conteudo-barra-brasil nav ul{display:flex;flex-flow:row nowrap;justify-content:flex-start;align-items:center;width:auto;max-width:none}#barra-brasil .conteudo-barra-brasil nav ul li.list-item{flex-shrink:0}#barra-brasil .conteudo-barra-brasil nav ul li.espacador{height:20px;width:1px;border-right:1px solid rgba(151,151,151,0.3);margin:0 7px 0 20px}#barra-brasil a{text-decoration:none;color:#fff;font-weight:bold;font-size:0.7em;font-family:Raleway,Arial,Helvetica,sans-serif;text-transform:uppercase;transition-property:all;transition-duration:0.1s;transition-timing-function:ease-in-out}#barra-brasil .conteudo-barra-brasil nav a.link-externo-barra::before{content:"";display:inline-block;width:11px;height:10px;margin-right:6px;background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2211%22%20height%3D%2210%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M10.174.169l-.003%204.002L6.173.173z%22%2F%3E%3Cpath%20d%3D%22M4%204.51L7.91.6l1.768%201.768-3.91%203.91zM0%200h3.5v2.5H0z%22%2F%3E%3Cpath%20d%3D%22M0%202h2.5v5H0zM7.5%206H10v3H7.5z%22%2F%3E%3Cpath%20d%3D%22M0%207h10v2.5H0z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");opacity:0;transition-property:all;transition-duration:0.1s;transition-timing-function:ease-in-out}#barra-brasil .conteudo-barra-brasil nav a.link-discreto,#barra-brasil .conteudo-barra-brasil nav a.link-discreto-fixo,#barra-brasil .conteudo-barra-brasil nav:hover li:not(:hover)>a{opacity:0.3}#barra-brasil .conteudo-barra-brasil nav a:hover{opacity:1}#barra-brasil .conteudo-barra-brasil nav a.link-externo-barra:hover::before{opacity:1}#barra-brasil .conteudo-barra-brasil nav a.link-interno-barra{margin-left:13px}#barra-brasil .conteudo-barra-brasil nav a.link-baixo-barra::after{content:"";display:inline-block;width:13px;height:13px;margin-left:6px;background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2214%22%20height%3D%229%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M1.9.033L8.4%206.531%206.63%208.3.133%201.801z%22%2F%3E%3Cpath%20d%3D%22M11.395%200L5.03%206.364l1.767%201.768%206.364-6.364z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-repeat:no-repeat;background-position:center;background-size:8px 6px;background-color:#3b3b3b;border-radius:50%}#barra-brasil .conteudo-barra-brasil nav a.link-baixo-barra.link-cima-barra::after{background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2214%22%20height%3D%229%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M1.9%208.967L8.4%202.469%206.63.7.133%207.199z%22%2F%3E%3Cpath%20d%3D%22M11.395%209L5.03%202.636%206.798.868l6.364%206.364z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")}#barra-brasil .conteudo-barra-brasil a.botao-seta-direita{display:none;width:9px;min-width:9px;margin-left:10px;height:13px;background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%2213%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M.533%2011.232L7.03%204.734%208.8%206.502%202.301%2013z%22%2F%3E%3Cpath%20d%3D%22M.5%201.738l6.364%206.364%201.768-1.768L2.268-.03z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");line-height:0;font-size:0;color:transparent}#barra-brasil .orgaos-governo-barra{width:100%;border-bottom:0.5px solid rgba(255,255,255,0.3);max-height:0;overflow-y:hidden;transition-property:all;transition-duration:0.5s;transition-timing-function:ease-in-out}#barra-brasil .orgaos-governo-barra.mostra-orgaos{max-height:calc(90vh - 40px)}#barra-brasil .orgaos-governo-barra>div{width:100%;max-width:1150px;margin:0 auto}#barra-brasil .orgaos-governo-barra ul{margin-top:25px;width:calc(100% + 25px);display:flex;flex-flow:row wrap}#barra-brasil .orgaos-governo-barra ul li{width:168px;text-align:left;margin:0 25px 25px 0}#barra-brasil .orgaos-governo-barra ul li a{font-size:0.75em;text-transform:none;font-weight:bold}#barra-brasil .orgaos-governo-barra ul:hover li:not(:hover) a{opacity:0.3}#barra-brasil .orgaos-governo-barra ul li a:hover{font-weight:bold}@media only screen and (max-width: 600px){#barra-brasil .orgaos-governo-barra{overflow-y:auto}#barra-brasil .orgaos-governo-barra ul{width:100%;flex-flow:column nowrap}#barra-brasil .orgaos-governo-barra ul li{width:100%;margin:0 0 25px 0}#barra-brasil .conteudo-barra-brasil a.botao-seta-direita{display:block}}</style><style type="text/css" media="all">#footer-brasil{background-color:#F1F1F1;width:100%}#footer-brasil #wrapper-footer-brasil{width:95%;max-width:1150px;margin:0 auto;display:flex;flex-flow:row nowrap;align-items:center;justify-content:flex-end;padding:40px 0}#footer-brasil .logo-acesso-a-informacao,#footer-brasil .logo-governo-federal{line-height:0;font-size:0;color:transparent}#footer-brasil .logo-acesso-footer{width:117px;height:49px;margin-right:45px;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20117%2049%22%20height%3D%2249%22%20width%3D%22117%22%20shape-rendering%3D%22geometricPrecision%22%20text-rendering%3D%22geometricPrecision%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%3C!%5BCDATA%5B.a%20%7Bfont%3A%20normal%20bold%2011px%20Open%20Sans%2C%20sans-serif%3B%7D%5D%5D%3E%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%2223%22%20r%3D%2222%22%20fill%3D%22%23222%22%2F%3E%3Cpath%20style%3D%22stroke%3A%23fff%3Bstroke-width%3A9%3Bstroke-linecap%3Around%3B%22%20d%3D%22m%2022%2C23%20v%2013%22%2F%3E%3Cpath%20style%3D%22stroke%3A%23222%3Bstroke-width%3A4%3Bstroke-linejoin%3Around%3B%22%20d%3D%22m%204%2C43%203%2C-6%204%2C3%20z%22%2F%3E%3Ccircle%20r%3D%224.5%22%20cy%3D%2211%22%20cx%3D%2222%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill%3D%22%23222%22%3E%3Ctext%20x%3D%2247%22%20y%3D%2222%22%3E%3Ctspan%20class%3D%22a%22%20y%3D%2218%22%3EAcesso%20%C3%A0%3C%2Ftspan%3E%3Ctspan%20class%3D%22a%22%20x%3D%2247%22%20y%3D%2231%22%3EInforma%C3%A7%C3%A3o%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E")}#footer-brasil .logo-governo-federal{width:149px;height:42px;background-repeat:no-repeat;background-position:bottom right;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%20496.2%20143.8%22%3E%3Cstyle%3E.st0%7Bfill%3A%23575756%7D%3C%2Fstyle%3E%3Cpath%20d%3D%22M220.5%2054.5c14.5%200%2021.4%206%2021.4%2016%200%205.6-3.7%2010.4-9.2%2012.4%206.7%201.8%2012.5%207.9%2012.5%2015.5%200%209.8-7.1%2017.2-23.4%2017.2-8%200-14.4-.2-21.7-.3l-.6-.6V55.4l.6-.6c7.2-.1%2013.9-.3%2020.4-.3zm-10.7%2025.4h10.3c9.2%200%2011.3-4.9%2011.3-9.1%200-4.3-1.9-9.1-11.1-9.1-2.8%200-7.4%200-10.5-.1v18.3zm0%207.2v21.4c4.1%200%208.3-.1%2011.9-.1%2010.6%200%2012.8-6.1%2012.8-10.6%200-4.4-2.9-10.7-13.4-10.7h-11.3zM284.5%2088.7c3.2%201.1%205.6%204.1%207%207.5l4.3%2010.3c1%202.4%202.2%204.8%204.4%206.4-1.4%201.9-4.4%202.9-7.1%202.9-3.9%200-5.3-1.9-6.9-5.7l-4.9-11.9c-1.7-4.1-3.8-7.2-9.9-7.2h-8.1v24.3c-1.6.3-3.5.4-5.2.4-1.6%200-3.6-.1-5.1-.4V55.4l.6-.6c7.4-.1%2014.5-.3%2021.1-.3%2013.7%200%2022.3%206.4%2022.3%2018.1.1%208.1-5.3%2014.1-12.5%2016.1zm-21.1-5.3c3.8-.1%208.2-.2%2010.9-.2%209.6%200%2012-5.5%2012-10.6%200-5.4-2.4-10.7-12-10.7-2.9%200-7.6%200-10.9-.1v21.6zM320.8%20100.5l-5.2%2014.8c-1.3.3-2.9.4-4.5.4-1.9%200-3.7-.3-5.1-.6l-.3-.4L327.9%2055c1.6-.3%204.3-.4%206-.4%201.7%200%204.4.1%205.9.4l22%2059.7c-1.5.9-3.8%201.2-6.1%201.2-3.2%200-4.9-1.1-6.2-4.9l-3.6-10.3c-1.7%200-5.1.1-5.9.1h-13.5c-.8-.2-4-.3-5.7-.3zm2.6-7.6c1.6%200%204.2-.1%205-.1h9.8c.7%200%203.3.1%204.9.1l-4.5-12.8c-1.8-5.1-3.8-11.3-5.2-16h-.4c-1%204-2.8%209.5-3.8%2012.8l-5.8%2016zM371.1%20102.5c5.7%203.4%2013%206%2019.8%206%208%200%2012.5-3.4%2012.6-8.3%200-4.2-3.2-7.3-8.9-9.5L383%2086.2c-8.3-3.2-13.5-7.8-13.5-15.3%200-9.6%209-17.1%2022.2-17.1%208.2%200%2015.7%202.3%2020.8%204.6-.1%202.7-1.7%205.6-3.8%207.3-5.1-2.3-11.8-4.2-16.8-4.2-7.3%200-11.8%203.6-11.8%208.3%200%203.9%203.3%206.1%208.2%208l11.4%204.4c8.5%203.2%2014.7%208.6%2014.7%2016.4%200%2010.2-7.9%2017.8-24.1%2017.8-8.2%200-17-2.5-23.6-6.6.3-2.8%202.2-5.7%204.4-7.3zM426.6%2054.9c1.5-.3%203.6-.4%205.2-.4s3.6.1%205.2.4v60.3c-1.6.3-3.6.4-5.2.4s-3.7-.1-5.2-.4V54.9zM492.9%20107.1c0%201-.1%202.6-.3%203.7-.6%203-3%204.5-6.8%204.5h-25.7c-3.5%200-6.1-2-6.1-5.8V55l.7-.5h3.9c4.3%200%205.9%201.9%205.9%206v46.9c3-.3%206.1-.4%208.7-.4h19.7zM209.6%2034.6h-4.1v10.1c-.9.2-2.1.2-3%20.2-.8%200-2%200-3-.2V14.5l.3-.3c3.6-.1%206.5-.2%209.7-.2%206.1%200%2010.6%203.3%2010.6%2010.3%200%206.8-4.4%2010.3-10.5%2010.3zm-4.1-4.6c1.5%200%203.1-.1%203.7-.1%204%200%204.8-3.2%204.8-5.6%200-2.4-.8-5.6-4.8-5.6h-3.7V30zM227.2%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.7%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1H227.2zm1.5-4.7H236.4l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM252.3%2022.5v-3.3H244.7c-.2-.9-.2-1.8-.2-2.5s0-1.6.2-2.5H266c.2.6.3%201.6.3%202.3%200%202-1%202.7-3.2%202.7H258.3v25.5c-1%20.2-2.1.2-3%20.2-.8%200-2%200-3-.2V22.5zM285.4%2031.6c1.6.6%202.7%202.1%203.3%203.9l1.6%204.5c.4%201.2%201.1%202.4%202.1%203.2-.8%201.1-2.4%201.8-4%201.8-2.2%200-2.9-1.2-3.8-3.5l-1.9-5.3c-.7-1.8-1.6-3.2-4.1-3.2H276v11.7c-1%20.2-2.1.2-3%20.2-.8%200-2%200-2.9-.2V14.5l.3-.3c3.6-.1%206.9-.2%2010.2-.2%206.2%200%2010.5%203.1%2010.5%209.4-.1%204.3-2.8%207.2-5.7%208.2zm-9.4-3.2c1.6-.1%203.2-.1%204.1-.1%203.9%200%204.8-2.4%204.8-4.8%200-2.5-.9-4.8-4.8-4.8H276v9.7zM297.3%2014.3c.9-.2%202.2-.2%203-.2.8%200%202%200%203%20.2v30.4c-1%20.2-2.1.2-3%20.2-.8%200-2.1%200-3-.2V14.3zM315.4%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.8%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1h-10.7zm1.5-4.7H324.6l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM353.1%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.7%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1H353.1zm1.4-4.7H362.2l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM377.7%2014.3c1.3-.2%203-.3%204-.3%201.1%200%202.5.1%203.8.3l3.4%2012.3c.3%201.2%201.4%205.8%201.7%207.6h.3c.3-1.8%201.4-6.4%201.7-7.6l3.4-12.3c1.3-.2%202.8-.3%203.8-.3%201.1%200%202.7.1%204.1.3l2.4%2030.3c-.8.2-2%20.3-3%20.3-.9%200-1.8%200-2.6-.2l-.8-14.3c-.2-2.8-.4-6.9-.4-9.7h-.3L394%2040.1c-.9.1-2.2.2-3.1.2-.8%200-2.1-.1-3-.2l-5.2-19.4h-.3c0%202.8-.2%206.9-.4%209.7l-1%2014.3c-.8.1-1.7.2-2.7.2-.9%200-2.1-.1-3-.3l2.4-30.3zM417.4%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.7%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1H417.4zm1.5-4.7H426.6l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM459.4%2042.7c-2%201.6-5.6%202.2-8%202.2-3.7%200-6.6-.1-10.5-.2l-.3-.3v-30l.3-.3c3.8-.1%206.8-.2%2010.5-.2%202.4%200%206%20.6%208%202.2%204.1%203.3%204.9%208%204.9%2013.2-.1%205.4-.8%2010.1-4.9%2013.4zm-8-23.9h-4.9v21.5h4.9c5.8%200%206.7-5.8%206.7-10.7%200-5-.9-10.8-6.7-10.8zM474%2037.8l-2.1%206.9c-.8.2-1.6.2-2.6.2-.9%200-2.1-.1-2.8-.4l-.2-.3%209.9-30c1-.1%202.4-.2%203.5-.2.9%200%202.5.1%203.4.3l9.8%2030c-.8.5-2.3.8-3.4.8-1.9%200-2.8-.7-3.6-3.2l-1.2-4.1H474zm1.5-4.7H483.2l-1.3-4.5c-.8-2.5-1.7-6-2.4-8.6h-.3c-.4%202.3-1.4%205.5-2%207.5l-1.7%205.6zM238.2%203.9c.9.5%202.1%201.9%202.4%203.2l-7.4%204.4c-.7-.3-1.4-1.3-1.6-2l6.6-5.6z%22%2F%3E%3Cg%3E%3Cpath%20d%3D%22M206.9%20133.7h3.4c1.5%200%202.3.7%202.3%202.2v5.7c-1.9.6-3.8.9-5.9.9-1%200-2-.2-2.8-.5-.8-.3-1.5-.8-2-1.5-.5-.6-.9-1.4-1.2-2.4-.3-.9-.4-2-.4-3.2%200-1.3.2-2.5.6-3.4s.9-1.8%201.5-2.4c.6-.6%201.4-1.1%202.2-1.5.8-.3%201.7-.5%202.6-.5%201.9%200%203.6.5%205.3%201.6%200%20.2-.1.5-.2.7-.1.2-.2.5-.3.7-.1.2-.3.4-.5.6-.2.2-.4.3-.6.5-1.2-.8-2.4-1.2-3.6-1.2-2.4%200-3.5%201.6-3.5%204.9%200%203.3%201.2%204.9%203.6%204.9h1c.3%200%20.6-.1.9-.1v-1.4-.9-.6h-1.1c-.6%200-1-.1-1.3-.4-.2-.2-.4-.6-.4-1.1.1-.6.2-1.1.4-1.6zM224.2%20141.1c-1.5-1.3-2.3-3.4-2.3-6.3%200-1.3.1-2.4.4-3.3.3-1%20.7-1.8%201.3-2.4.6-.6%201.2-1.1%202-1.5.8-.3%201.7-.5%202.7-.5%201%200%201.9.2%202.7.5.8.3%201.5.8%202%201.5.6.7%201%201.5%201.3%202.4.3%201%20.4%202.1.4%203.3%200%201.3-.1%202.4-.4%203.3-.3%201-.7%201.8-1.3%202.4-.6.6-1.2%201.1-2%201.5-.8.3-1.7.5-2.7.5-1.7-.1-3-.5-4.1-1.4zm1.7-3c.4%201.1%201.2%201.7%202.4%201.7.6%200%201.1-.1%201.4-.4.4-.3.7-.7.9-1.1.2-.5.3-1%20.4-1.5.1-.6.1-1.1.1-1.7%200-.5%200-1.1-.1-1.7%200-.6-.1-1.2-.3-1.7-.2-.5-.4-1-.8-1.4-.4-.4-.9-.6-1.6-.6-.7%200-1.2.2-1.6.5-.4.4-.6.8-.8%201.3-.2.5-.3%201.1-.3%201.7%200%20.6-.1%201.1-.1%201.5%200%20.7%200%201.3.1%201.8%200%20.5.1%201%20.3%201.6zM249.6%20139.2l2.8-11.9c.3-.1.8-.1%201.3-.1.8%200%201.3.1%201.8.2l.1.2-4%2014.5c-.8.1-1.6.1-2.5.1-.8%200-1.4-.1-1.8-.3-.4-.2-.6-.6-.8-1.2l-3.6-13.1c.8-.3%201.4-.5%201.9-.5.6%200%201.1.1%201.3.4.3.3.5.7.7%201.3l1.7%206.2c.3%201%20.5%202.3.8%203.9.1.2.1.3.3.3zM268.3%20137.7v1.6h6.6c0%20.5%200%20.9-.1%201.2-.2%201.1-.9%201.7-2.2%201.7h-5.8c-.6%200-1.1-.2-1.5-.5-.4-.4-.5-.9-.5-1.5v-12.7l.2-.2h9.3c.1.4.1.9.1%201.4s-.1%201-.3%201.5h-5.9v3.1h4.8c.1.4.2.9.2%201.4%200%20.5-.1%201-.2%201.4h-4.8v1.6zM295.3%20131.9c0%20.5-.1.9-.2%201.4-.1.4-.3.8-.6%201.1-.2.3-.5.6-.8.9-.3.3-.7.4-1%20.6.8.3%201.3.9%201.7%202l.6%201.8c.2.7.6%201.3%201.1%201.6-.2.3-.5.5-1%20.7-.4.2-.9.3-1.4.3-.5%200-.9-.1-1.2-.4-.3-.3-.6-.8-.8-1.5l-.8-2.3c-.2-.4-.4-.8-.6-1-.3-.2-.7-.3-1.2-.3h-.9v5.4c-.5.1-1%20.1-1.7.1s-1.3%200-1.7-.1v-14.7l.2-.2c1.3%200%202.3%200%203.2-.1h2c.8%200%201.5.1%202.2.3.6.2%201.2.5%201.7.9s.8.9%201.1%201.5c0%20.5.1%201.2.1%202zm-7.1-2.1v4.3h1.7c.5%200%20.8-.1%201.1-.3.3-.2.5-.4.6-.6.1-.3.2-.7.2-1.2%200-1.4-.7-2.1-2-2.1h-.9c-.3-.1-.5-.1-.7-.1zM317.1%20127.2l.2.2V142c-.6.1-1.3.2-2%20.2s-1.5%200-2.1-.1l-3.4-7.7c-.4-.9-.8-1.9-1.2-3.1h-.1c.2%202.1.3%204.3.3%206.5v4.3c-.4.1-1%20.1-1.6.1-.6%200-1.2%200-1.6-.1v-14.7c.5-.1%201.2-.2%202-.2s1.5%200%202.1.1l3.4%207.7c.6%201.4%201.1%202.5%201.3%203.3h.1c-.2-2-.3-4.1-.3-6.4v-2.6c0-.8.2-1.3.5-1.6.3-.3.8-.5%201.5-.5h.9zM329.4%20141.1c-1.5-1.3-2.3-3.4-2.3-6.3%200-1.3.1-2.4.4-3.3.3-1%20.7-1.8%201.3-2.4.6-.6%201.2-1.1%202-1.5.8-.3%201.7-.5%202.7-.5%201%200%201.9.2%202.7.5.8.3%201.5.8%202%201.5.6.7%201%201.5%201.3%202.4.3%201%20.4%202.1.4%203.3%200%201.3-.1%202.4-.4%203.3-.3%201-.7%201.8-1.3%202.4-.6.6-1.2%201.1-2%201.5-.8.3-1.7.5-2.7.5-1.6-.1-3-.5-4.1-1.4zm1.7-3c.4%201.1%201.2%201.7%202.4%201.7.6%200%201.1-.1%201.4-.4.4-.3.7-.7.9-1.1.2-.5.3-1%20.4-1.5.1-.6.1-1.1.1-1.7%200-.5%200-1.1-.1-1.7%200-.6-.1-1.2-.3-1.7-.2-.5-.4-1-.8-1.4-.4-.4-.9-.6-1.6-.6-.7%200-1.2.2-1.6.5-.4.4-.6.8-.8%201.3-.2.5-.3%201.1-.3%201.7%200%20.6-.1%201.1-.1%201.5%200%20.7%200%201.3.1%201.8s.2%201%20.3%201.6zM365.4%20130.3V133.4h4.7c.1.4.2.9.2%201.4%200%20.5-.1%201-.2%201.4h-4.7v6c-.5.1-1%20.1-1.7.1s-1.3%200-1.7-.1v-14.7l.2-.1h9.3c.1.4.1.8.1%201.4s-.1.9-.4%201.2c-.3.3-.8.4-1.4.4h-4.4zM384.4%20137.7v1.6h6.6c0%20.5%200%20.9-.1%201.2-.2%201.1-.9%201.7-2.2%201.7H383c-.6%200-1.1-.2-1.5-.5-.4-.4-.5-.9-.5-1.5v-12.7l.2-.2h9.3c.1.4.1.9.1%201.4s-.1%201-.3%201.5h-5.9v3.1h4.8c.1.4.2.9.2%201.4%200%20.5-.1%201-.2%201.4h-4.8v1.6zM410.4%20141.2c-.5.4-1.1.6-1.8.8-.8.2-1.6.3-2.5.3h-1.9c-.8%200-1.9%200-3.2-.1l-.2-.2v-14.6l.2-.2c.8%200%201.7%200%202.6-.1h2.8c1.2%200%202.3.2%203.1.6.8.4%201.5.9%202%201.6s.8%201.5%201%202.4c.2.9.3%201.9.3%203%200%201.4-.2%202.7-.5%203.7-.3%201.1-1%202-1.9%202.8zm-4-1.7c1.9%200%202.9-1.6%202.9-4.8%200-3.2-1-4.8-2.9-4.8h-2.1v9.7h.9c.3-.1.7-.1%201.2-.1zM426.1%20137.7v1.6h6.6c0%20.5%200%20.9-.1%201.2-.2%201.1-.9%201.7-2.2%201.7h-5.8c-.6%200-1.1-.2-1.5-.5-.4-.4-.5-.9-.5-1.5v-12.7l.2-.2h9.3c.1.4.1.9.1%201.4s-.1%201-.3%201.5H426v3.1h4.8c.1.4.2.9.2%201.4%200%20.5-.1%201-.2%201.4H426v1.6zM453.1%20131.9c0%20.5-.1.9-.2%201.4s-.3.8-.6%201.1c-.2.3-.5.6-.8.9-.3.3-.7.4-1%20.6.8.3%201.3.9%201.7%202l.6%201.8c.2.7.6%201.3%201.1%201.6-.2.3-.5.5-1%20.7-.4.2-.9.3-1.4.3-.5%200-.9-.1-1.2-.4-.3-.3-.6-.8-.8-1.5l-.8-2.3c-.2-.4-.4-.8-.6-1-.3-.2-.7-.3-1.2-.3h-.9v5.4c-.5.1-1%20.1-1.7.1s-1.3%200-1.7-.1v-14.7l.2-.2c1.3%200%202.3%200%203.2-.1h2c.8%200%201.5.1%202.2.3.6.2%201.2.5%201.7.9s.8.9%201.1%201.5c0%20.5.1%201.2.1%202zm-7.2-2.1v4.3h1.7c.5%200%20.8-.1%201.1-.3.3-.2.5-.4.6-.6.1-.3.2-.7.2-1.2%200-1.4-.7-2.1-2-2.1h-.9c-.2-.1-.5-.1-.7-.1zM466.8%20139h-.9l-.9%203.1c-.3.1-.8.1-1.4.1-.7%200-1.3-.1-1.7-.2l-.1-.2%204.8-14.5c.6-.1%201.2-.1%202-.1.9%200%201.5.1%202%20.2l4.7%2014.5c-.5.3-1.1.4-1.7.4-.8%200-1.3-.1-1.6-.4-.3-.3-.6-.8-.8-1.5l-.4-1.4h-4zm0-2.7h3.3l-.4-1.3c-.3-1.2-.7-2.7-1.2-4.5h-.1c-.1.6-.5%202-1%204.1l-.6%201.7zM489.9%20139.2h3.8c0%20.6%200%201.1-.1%201.5-.1.4-.3.8-.7%201.1-.4.3-.9.4-1.5.4h-4.9c-.6%200-1.1-.2-1.5-.5-.4-.4-.5-.9-.5-1.5v-12.8l.2-.2h1.3c1.3%200%202%20.7%202%202.2v9.9c.5-.1%201.2-.1%201.9-.1z%22%2F%3E%3C%2Fg%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M.7%2014v69.8l72.1-58.2%20109.1%2048.1V14z%22%2F%3E%3Cpath%20d%3D%22M.7%2083.8v49.4s5.8-5%2016.5-12.2C22.4%2089.1%2050%2064.8%2083.3%2064.8c15.1%200%2029%205%2040.2%2013.4%2017.9-3.3%2037.4-5.1%2058.3-4.5l-109-48.1L.7%2083.8z%22%20fill%3D%22%23c6c6c6%22%2F%3E%3Cpath%20d%3D%22M83.3%2064.8c-33.3%200-60.9%2024.3-66%2056.2%2019.9-13.2%2057-33.7%20106.3-42.8-11.2-8.4-25.2-13.4-40.3-13.4z%22%2F%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M140.2%2096.5C79.3%20100%2037.4%20119.4%2016.4%20131.8%206%20137.9.7%20142.3.7%20142.3h181.1V96.6c-14.7-.9-28.5-.9-41.6-.1z%22%2F%3E%3C%2Fsvg%3E")}</style><style type="text/css">/* TREE LAYOUT */ .tree ul { margin:0 0 0 5px; padding:0 0 0 0; list-style-type:none; } .tree li { display:block; min-height:18px; line-height:18px; padding:0 0 0 15px; margin:0 0 0 0; /* Background fix */ clear:both; } .tree li ul { display:none; } .tree li a, .tree li span { display:inline-block;line-height:16px;height:16px;color:black;white-space:nowrap;text-decoration:none;padding:1px 4px 1px 4px;margin:0; } .tree li a:focus { outline: none; } .tree li a input, .tree li span input { margin:0;padding:0 0;display:inline-block;height:12px !important;border:1px solid white;background:white;font-size:10px;font-family:Verdana; } .tree li a input:not([class="xxx"]), .tree li span input:not([class="xxx"]) { padding:1px 0; } /* FOR DOTS */ .tree .ltr li.last { float:left; } .tree > ul li.last { overflow:visible; } /* OPEN OR CLOSE */ .tree li.open ul { display:block; } .tree li.closed ul { display:none !important; } /* FOR DRAGGING */ #jstree-dragged { position:absolute; top:-10px; left:-10px; margin:0; padding:0; } #jstree-dragged ul ul ul { display:none; } #jstree-marker { padding:0; margin:0; line-height:5px; font-size:1px; overflow:hidden; height:5px; position:absolute; left:-45px; top:-30px; z-index:1000; background-color:transparent; background-repeat:no-repeat; display:none; } #jstree-marker.marker { width:45px; background-position:-32px top; } #jstree-marker.marker_plus { width:5px; background-position:right top; } /* BACKGROUND DOTS */ .tree li li { overflow:hidden; } .tree > .ltr > li { display:table; } /* ICONS */ .tree ul ins { display:inline-block; text-decoration:none; width:16px; height:16px; } .tree .ltr ins { margin:0 4px 0 0px; } </style><style type="text/css">@charset "UTF-8";
+[vp] .vpw-vlibras-span {
+  font-family: 'Open Sans', sans-serif; }
+
+[vp] .vpw-settings {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 40px); }
+  [vp] .vpw-settings .vpw-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    background-color: #003F86;
+    color: white; }
+    [vp] .vpw-settings .vpw-content .vpw-flag {
+      position: absolute;
+      height: 24px;
+      margin-top: -12px;
+      margin-left: 4px;
+      border: none;
+      border-radius: 5px; }
+    [vp] .vpw-settings .vpw-content > .vpw-bar {
+      position: absolute;
+      width: 100%;
+      height: 54px; }
+      [vp] .vpw-settings .vpw-content > .vpw-bar .vpw-title {
+        position: absolute;
+        top: 16px;
+        left: 50px;
+        color: #6481b8;
+        font-size: 12px;
+        font-weight: bold; }
+    [vp] .vpw-settings .vpw-content > ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0 11%;
+      font-family: 'Open Sans', sans-serif; }
+      [vp] .vpw-settings .vpw-content > ul li {
+        position: relative;
+        padding: 19px 0;
+        border-bottom: 0; }
+        [vp] .vpw-settings .vpw-content > ul li .vpw-name {
+          position: absolute;
+          left: 0px;
+          margin-top: -10px;
+          font-size: 14px; }
+      [vp] .vpw-settings .vpw-content > ul li:hover {
+        color: #67C8D5; }
+      [vp] .vpw-settings .vpw-content > ul .vpw-position {
+        display: none; }
+      [vp] .vpw-settings .vpw-content > ul .vpw-localism {
+        padding: 24px 0; }
+        [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-flag {
+          right: 27px;
+          height: 24px; }
+        [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-abbrev {
+          position: absolute;
+          right: 0px;
+          margin-top: -9px;
+          font-size: 14px;
+          font-weight: bold; }
+        [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-arrow {
+          position: absolute;
+          right: 16px;
+          height: 13px;
+          margin-top: -6px; }
+    [vp] .vpw-settings .vpw-content > .vpw-localism {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 7;
+      background-color: white;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 2px; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism:not(.active) {
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: visibility 0s, opacity 0.3s;
+        transition: visibility 0s, opacity 0.3s; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism.active {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: visibility 0s, opacity 0.3s;
+        transition: visibility 0s, opacity 0.3s; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-name {
+        position: absolute;
+        margin-top: -7px;
+        margin-left: 9px;
+        font-size: 14px;
+        font-weight: bold; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-national {
+        position: relative;
+        width: calc(33.33%);
+        margin-top: 6px;
+        padding-top: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-national .vpw-name {
+          color: black;
+          position: relative; }
+        [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-national .vpw-flag {
+          position: relative; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        box-sizing: content-box;
+        padding: 0px 8px 0px 8px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%); }
+        [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions {
+          display: inline-block;
+          position: relative;
+          width: 33.33%;
+          margin-bottom: 1px;
+          padding: 6px 0;
+          margin-top: 1%;
+          cursor: pointer;
+          opacity: 0.5;
+          -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions.selected, [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions:hover {
+            opacity: 1;
+            -webkit-transition: opacity 0.3s;
+            transition: opacity 0.3s; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions .vpw-cont {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions > .vpw-cont .vpw-flag {
+            position: relative;
+            margin: 0; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions > .vpw-cont .vpw-name {
+            position: relative;
+            margin: 0 10px 0;
+            color: grey; }
+    [vp] .vpw-settings .vpw-content .vpw-vlibras-logo {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      z-index: 6; }
+      [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-vlibras-span {
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        bottom: 15%;
+        align-items: center;
+        font-size: 14px; }
+      [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-logo {
+        width: 100%; }
+  [vp] .vpw-settings > .vpw-wall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5; }
+  [vp] .vpw-settings.active {
+    display: block; }
+    [vp] .vpw-settings.active .vpw-content {
+      left: 0;
+      -webkit-transition: left 0.3s;
+      transition: left 0.3s; }
+    [vp] .vpw-settings.active .vpw-wall {
+      visibility: visible; }
+  [vp] .vpw-settings:not(.active) {
+    display: none; }
+    [vp] .vpw-settings:not(.active) .vpw-content {
+      left: 0;
+      visibility: hidden;
+      -webkit-transition: left 0.3s;
+      transition: left 0.3s; }
+    [vp] .vpw-settings:not(.active) .vpw-wall {
+      visibility: hidden; }
+  [vp] .vpw-settings .vpw-clickable {
+    cursor: pointer; }
+    [vp] .vpw-settings .vpw-clickable:not(:hover) {
+      background-color: inherit;
+      -webkit-transition: 0.12s background-color;
+      transition: 0.12s background-color; }
+    [vp] .vpw-settings .vpw-clickable:hover {
+      -webkit-transition: 0.2s background-color;
+      transition: 0.2s background-color; }
+
+[vp] .vpw-controls-dictionary:not(.vpw-loading-dictionary):before {
+  content: 'Dicion\E1rio';
+  font-size: 14px;
+  position: absolute;
+  margin-top: -11px; }
+
+[vp] .vpw-controls-dictionary.vpw-loading-dictionary {
+  min-width: 22px;
+  min-height: 22px;
+  margin-top: -17px;
+  position: absolute;
+  border-left: 3px solid rgba(255, 255, 255, 0.2);
+  border-top: 3px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 3px solid white;
+  border-right: 3px solid rgba(255, 255, 255, 0.6);
+  border-style: inset;
+  border-radius: 50%;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 0.8s linear infinite; }
+
+/*@media (min-width: 600px) {
+  .vpw-settings {
+    &.active {
+      visibility: visible;
+      left: 0;
+
+      -webkit-transition: visibility 0s, left 0.3s;
+      transition: visibility 0s, left 0.3s;
+    }
+
+    &:not(.active) {
+      visibility: hidden;
+      left: -220px;
+
+      -webkit-transition: visibility 0.3s, left 0.3s;
+      transition: visibility 0.3s, left 0.3s;
+    }
+
+    .vpw-content {
+      left: -220px;
+      width: 220px;
+
+
+      .vpw-bar {
+        height: 66px;
+
+
+        .vpw-btn-back {
+          width: 30px;
+          height: 30px;
+          margin-top: 18px;
+          margin-left: 18px;
+        }
+
+        .vpw-title {
+          top: 25px;
+          left: 60px;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+}*/
+</style><style type="text/css">[vp] {
+  /* Hide default HTML checkbox */
+  /* The slider */
+  /* Rounded sliders */ }
+  [vp] .vpw-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 21px;
+    float: right;
+    margin-top: -10px; }
+  [vp] .vpw-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0; }
+  [vp] .vpw-slider-check {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3; }
+  [vp] .vpw-slider-check:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white; }
+  [vp] input:checked + .vpw-slider-check {
+    background-color: #2196F3; }
+  [vp] input:focus + .vpw-slider-check {
+    box-shadow: 0 0 1px #ccc; }
+  [vp] input:checked + .vpw-slider-check:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px); }
+  [vp] .vpw-slider-check.vpw-round {
+    border-radius: 34px; }
+  [vp] .vpw-slider-check.vpw-round:before {
+    border-radius: 50%;
+    top: -3px; }
+</style><style type="text/css">[vp] .vpw-settings-btn {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  cursor: pointer; }
+  [vp] .vpw-settings-btn .vpw-settings-btn-menu {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 18px;
+    left: 20px; }
+    [vp] .vpw-settings-btn .vpw-settings-btn-menu.active {
+      display: block; }
+  [vp] .vpw-settings-btn .vpw-settings-btn-close {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px; }
+</style><style type="text/css">[vp] .vpw-info-screen {
+  position: relative;
+  padding: 1em;
+  width: 100%;
+  height: calc(100% - 40px);
+  z-index: 4;
+  background-color: white;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  font-size: 13px;
+  display: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  [vp] .vpw-info-screen.active {
+    display: -webkit-flex;
+    display: flex; }
+  [vp] .vpw-info-screen .vpw-arrow {
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    visibility: hidden; }
+  [vp] .vpw-info-screen .vpw-arrow.active {
+    visibility: visible; }
+  [vp] .vpw-info-screen #vpw-info-tabset {
+    position: relative;
+    top: 0;
+    flex-grow: 4;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    -webkit-align-items: center; }
+  [vp] .vpw-info-screen #vpw-info-main {
+    max-width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    -webkit-flex-direction: column; }
+    [vp] .vpw-info-screen #vpw-info-main.active {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center; }
+  [vp] .vpw-info-screen #vpw-info-logo img {
+    height: 90px; }
+  [vp] .vpw-info-screen #vpw-info-realizadores {
+    height: 100%;
+    min-width: 230px;
+    width: 50%;
+    flex-direction: column;
+    align-items: stretch;
+    -webkit-flex-direction: column;
+    -webkit-align-items: stretch; }
+    [vp] .vpw-info-screen #vpw-info-realizadores #vpw-realiz {
+      font-size: 20px; }
+    [vp] .vpw-info-screen #vpw-info-realizadores.active {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center; }
+    [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo {
+      margin: 0.5em 0.35em;
+      min-width: 10%;
+      max-width: 30%;
+      max-height: 15vh; }
+      [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo .vpw-short-ver {
+        max-width: none;
+        min-height: 16px; }
+    [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group {
+      display: flex;
+      padding: 0.5% 2%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      -webkit-flex-direction: row;
+      -webkit-flex-wrap: wrap;
+      -webkit-align-items: center;
+      -webkit-justify-content: space-around; }
+  [vp] .vpw-info-screen .vpw-info-tab {
+    flex-grow: 3;
+    -webkit-flex-grow: 3;
+    display: none; }
+    [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label {
+      position: absolute;
+      top: 5%;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif; }
+  [vp] .vpw-info-screen .vpw-info-tab.active {
+    display: block; }
+  [vp] .vpw-info-screen #vpw-info-meta p {
+    margin: .5em 0 0; }
+  [vp] .vpw-info-screen #vpw-info-meta a {
+    text-decoration: none; }
+  [vp] .vpw-info-screen .vpw-info-bullet {
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: ""; }
+  [vp] .vpw-info-screen #vpw-info-tab-bullets {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    flex-grow: 1;
+    -webkit-flex-grow: 1; }
+  [vp] .vpw-info-screen .vpw-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    z-index: 4; }
+    [vp] .vpw-info-screen .vpw-close-btn img.icon {
+      width: 34px;
+      height: 34px; }
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  [vp] #vpw-info-realizadores .vpw-logo {
+    margin: 0.5em 0.35em;
+    min-width: 10%;
+    max-width: 50%;
+    max-height: 18vh; } }
+
+@media only screen and (max-height: 360px) {
+  [vp] #vpw-info-main {
+    font-size: 0.84em; } }
+</style><style type="text/css">[vp] .vpw-dictionary {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: calc(100% - 40px);
+  min-width: 300px;
+  min-height: 300px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white; }
+  [vp] .vpw-dictionary.active {
+    display: block; }
+  [vp] .vpw-dictionary .vpw-panel {
+    position: relative;
+    height: 114px;
+    background-color: white; }
+    [vp] .vpw-dictionary .vpw-panel .vpw-bar {
+      text-align: center;
+      padding-top: 20px; }
+    [vp] .vpw-dictionary .vpw-panel .vpw-search {
+      position: absolute;
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 20px; }
+      [vp] .vpw-dictionary .vpw-panel .vpw-search input {
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 10px 10px 10px;
+        border-radius: 6px;
+        border: 1px solid #DDD;
+        outline: none; }
+        [vp] .vpw-dictionary .vpw-panel .vpw-search input:focus {
+          border: 1px solid #00ddf9; }
+      [vp] .vpw-dictionary .vpw-panel .vpw-search .vpw-icon {
+        display: block;
+        position: relative; }
+        [vp] .vpw-dictionary .vpw-panel .vpw-search .vpw-icon img {
+          position: absolute;
+          height: 24px;
+          width: 24px;
+          top: 6px;
+          right: 7px; }
+  [vp] .vpw-dictionary .vpw-dict-container {
+    position: absolute;
+    width: 80%;
+    height: 68%;
+    left: 50%;
+    transform: translateX(-50%); }
+    [vp] .vpw-dictionary .vpw-dict-container ul {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-y: scroll;
+      list-style-type: none; }
+      [vp] .vpw-dictionary .vpw-dict-container ul::-webkit-scrollbar {
+        width: 8px; }
+      [vp] .vpw-dictionary .vpw-dict-container ul::-webkit-scrollbar-track {
+        background-color: #DDD; }
+      [vp] .vpw-dictionary .vpw-dict-container ul::-webkit-scrollbar-thumb {
+        background-color: #BCBCBC; }
+      [vp] .vpw-dictionary .vpw-dict-container ul li {
+        font-size: 14px;
+        cursor: pointer; }
+        [vp] .vpw-dictionary .vpw-dict-container ul li:hover {
+          background-color: #EAEAEA;
+          -webkit-transition: brackground-color 0.3s;
+          transition: brackground-color 0.4s; }
+        [vp] .vpw-dictionary .vpw-dict-container ul li.margin {
+          height: 114px; }
+        [vp] .vpw-dictionary .vpw-dict-container ul li:not(.margin) {
+          padding: 9px 10px 9px 10px; }
+</style><style type="text/css">/*! nouislider - 8.5.1 - 2016-04-24 16:00:30 */
+.noUi-target, .noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.noUi-target {
+  position: relative;
+  direction: ltr; }
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1; }
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+.noUi-handle {
+  position: relative;
+  z-index: 1; }
+
+.noUi-stacking .noUi-handle {
+  z-index: 10; }
+
+.noUi-state-tap .noUi-origin {
+  -webkit-transition: left .3s,top .3s;
+  transition: left .3s,top .3s; }
+
+.noUi-state-drag * {
+  cursor: inherit !important; }
+
+.noUi-base, .noUi-handle {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.noUi-horizontal {
+  height: 18px; }
+
+.noUi-horizontal .noUi-handle {
+  width: 34px;
+  height: 28px;
+  left: -17px;
+  top: -6px; }
+
+.noUi-vertical {
+  width: 18px; }
+
+.noUi-vertical .noUi-handle {
+  width: 28px;
+  height: 34px;
+  left: -6px;
+  top: -17px; }
+
+.noUi-background {
+  background: #FAFAFA;
+  box-shadow: inset 0 1px 1px #f0f0f0; }
+
+.noUi-connect {
+  background: #3FB8AF;
+  box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45);
+  -webkit-transition: background 450ms;
+  transition: background 450ms; }
+
+.noUi-origin {
+  border-radius: 2px; }
+
+.noUi-target {
+  border-radius: 4px;
+  border: 1px solid #D3D3D3;
+  box-shadow: inset 0 1px 1px #F0F0F0,0 3px 6px -5px #BBB; }
+
+.noUi-target.noUi-connect {
+  box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45), 0 3px 6px -5px #BBB; }
+
+.noUi-draggable {
+  cursor: w-resize; }
+
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize; }
+
+.noUi-handle {
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #FFF;
+  cursor: default;
+  box-shadow: inset 0 0 1px #FFF,inset 0 1px 7px #EBEBEB,0 3px 6px -3px #BBB; }
+
+.noUi-active {
+  box-shadow: inset 0 0 1px #FFF,inset 0 1px 7px #DDD,0 3px 6px -3px #BBB; }
+
+.noUi-handle:after, .noUi-handle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 14px;
+  width: 1px;
+  background: #E8E7E6;
+  left: 14px;
+  top: 6px; }
+
+.noUi-handle:after {
+  left: 17px; }
+
+.noUi-vertical .noUi-handle:after, .noUi-vertical .noUi-handle:before {
+  width: 14px;
+  height: 1px;
+  left: 6px;
+  top: 14px; }
+
+.noUi-vertical .noUi-handle:after {
+  top: 17px; }
+
+[disabled] .noUi-connect, [disabled].noUi-connect {
+  background: #B8B8B8; }
+
+[disabled] .noUi-handle, [disabled].noUi-origin {
+  cursor: not-allowed; }
+
+.noUi-pips, .noUi-pips * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.noUi-pips {
+  position: absolute;
+  color: #999; }
+
+.noUi-value {
+  position: absolute;
+  text-align: center; }
+
+.noUi-value-sub {
+  color: #ccc;
+  font-size: 10px; }
+
+.noUi-marker {
+  position: absolute;
+  background: #CCC; }
+
+.noUi-marker-large, .noUi-marker-sub {
+  background: #AAA; }
+
+.noUi-pips-horizontal {
+  padding: 10px 0;
+  height: 80px;
+  top: 100%;
+  left: 0;
+  width: 100%; }
+
+.noUi-value-horizontal {
+  -webkit-transform: translate3d(-50%, 50%, 0);
+  transform: translate3d(-50%, 50%, 0); }
+
+.noUi-marker-horizontal.noUi-marker {
+  margin-left: -1px;
+  width: 2px;
+  height: 5px; }
+
+.noUi-marker-horizontal.noUi-marker-sub {
+  height: 10px; }
+
+.noUi-marker-horizontal.noUi-marker-large {
+  height: 15px; }
+
+.noUi-pips-vertical {
+  padding: 0 10px;
+  height: 100%;
+  top: 0;
+  left: 100%; }
+
+.noUi-value-vertical {
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  padding-left: 25px; }
+
+.noUi-marker-vertical.noUi-marker {
+  width: 5px;
+  height: 2px;
+  margin-top: -1px; }
+
+.noUi-marker-vertical.noUi-marker-sub {
+  width: 10px; }
+
+.noUi-marker-vertical.noUi-marker-large {
+  width: 15px; }
+
+.noUi-tooltip {
+  display: block;
+  position: absolute;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #fff;
+  padding: 5px;
+  text-align: center; }
+
+.noUi-horizontal .noUi-handle-lower .noUi-tooltip {
+  top: -32px; }
+
+.noUi-horizontal .noUi-handle-upper .noUi-tooltip {
+  bottom: -32px; }
+
+.noUi-vertical .noUi-handle-lower .noUi-tooltip {
+  left: 120%; }
+
+.noUi-vertical .noUi-handle-upper .noUi-tooltip {
+  right: 120%; }
+</style><style type="text/css">[vp] .vpw-controls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  width: calc(100% - 10px);
+  height: 60px;
+  background-size: 100% 100%; }
+  [vp] .vpw-controls .vpw-controls-subtitles, [vp] .vpw-controls .vpw-controls-slider {
+    margin: 0 9px;
+    cursor: pointer; }
+  [vp] .vpw-controls .vpw-controls-play .vpw-component-play {
+    display: block;
+    margin: 0 8.5px;
+    cursor: pointer; }
+  [vp] .vpw-controls .vpw-controls-play .vpw-component-pause {
+    display: none; }
+  [vp] .vpw-controls .vpw-controls-play .vpw-component-restart {
+    display: none; }
+  [vp] .vpw-controls.vpw-playing .vpw-controls-play .vpw-component-play {
+    display: none; }
+  [vp] .vpw-controls.vpw-playing .vpw-controls-play .vpw-component-pause {
+    display: block;
+    margin: 0 11px;
+    cursor: pointer; }
+  [vp] .vpw-controls.vpw-playing .vpw-controls-play .vpw-component-restart {
+    display: none; }
+  [vp] .vpw-controls.vpw-stopped .vpw-controls-play .vpw-component-play {
+    display: none; }
+  [vp] .vpw-controls.vpw-stopped .vpw-controls-play .vpw-component-pause {
+    display: none; }
+  [vp] .vpw-controls.vpw-stopped .vpw-controls-play .vpw-component-restart {
+    display: block;
+    margin: 0 2px;
+    cursor: pointer; }
+  [vp] .vpw-controls.vpw-subtitles .vpw-controls-subtitles .vpw-legenda-habilitar {
+    display: block; }
+  [vp] .vpw-controls.vpw-subtitles .vpw-controls-subtitles .vpw-legenda-desabilitar {
+    display: none; }
+  [vp] .vpw-controls .vpw-controls-subtitles .vpw-legenda-habilitar {
+    display: none; }
+  [vp] .vpw-controls .vpw-controls-subtitles .vpw-legenda-desabilitar {
+    display: block; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */ }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */ } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */ }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */ } }
+
+[vp] .vpw-speed-default {
+  border: 1px solid grey;
+  border-radius: 3px 3px 3px 3px;
+  padding: 3px 4px;
+  height: 100%;
+  color: grey;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif; }
+
+[vp] .vpw-img-default {
+  display: none;
+  padding: 2px;
+  padding-left: 2.2px;
+  cursor: pointer; }
+
+[vp] .vpw-border-default {
+  display: none;
+  border: 1px solid #999999;
+  border-radius: 0px 0px 3px 3px; }
+
+[vp] .vpw-elem-speed {
+  display: none;
+  position: absolute;
+  bottom: 22px;
+  cursor: pointer; }
+
+[vp] .vpw-block-speed {
+  list-style-type: none;
+  background-color: #003F86;
+  color: white;
+  font-size: 10px;
+  width: 25.5px;
+  text-align: center; }
+
+[vp] .vpw-block-speed:hover {
+  color: #67C8D5; }
+
+[vp] .vpw-controls-speed {
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+[vp] .vpw-controls-speed-number {
+  width: 25.5px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif; }
+
+[vp] .vpw-block-speed-3 {
+  border-radius: 5px 5px 0px 0px; }
+
+[vp] .vpw-controls-slider {
+  -webkit-appearance: none;
+  width: 50%;
+  margin: 2.5px 0;
+  height: 7px;
+  background-color: transparent; }
+  [vp] .vpw-controls-slider .vpw-slider {
+    width: 100%;
+    height: 7px; }
+    [vp] .vpw-controls-slider .vpw-slider.noUi-target {
+      box-shadow: none;
+      border: 0; }
+    [vp] .vpw-controls-slider .vpw-slider.noUi-connect {
+      background-color: #003F86; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-background {
+      background-color: #B8B8B8;
+      box-shadow: none; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-origin {
+      border-radius: 1px; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-handle {
+      width: 0px;
+      height: 0px;
+      left: -8px;
+      top: -8px;
+      border-radius: 50%; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-handle:after, [vp] .vpw-controls-slider .vpw-slider .noUi-handle:before {
+      display: none; }
+</style><style type="text/css">[vp] .vpw-progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: -92.5px;
+  width: 150px;
+  text-align: center; }
+  [vp] .vpw-progress .vpw-brand {
+    height: 150px; }
+  [vp] .vpw-progress .vpw-progressbar {
+    margin: 10px;
+    background-color: #444444;
+    width: 100%;
+    height: 15px;
+    padding: 0;
+    margin: 0; }
+    [vp] .vpw-progress .vpw-progressbar .vpw-bar {
+      width: 0;
+      background-color: #003366;
+      height: 15px; }
+</style><style type="text/css">[vp] .vpw-message-box {
+  top: -5em;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  font-size: 13px;
+  word-wrap: break-word;
+  color: #000;
+  opacity: 0;
+  -moz-transition: all .15s ease .15s;
+  -webkit-transition: all .15s ease .15s;
+  transition: all .15s ease .15s;
+  -moz-box-shadow: 0px 2px 5px #888888;
+  -webkit-box-shadow: 0px 2px 5px #888888;
+  box-shadow: 0px 2px 5px #888888;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; }
+  [vp] .vpw-message-box.active {
+    top: 0;
+    opacity: 1; }
+  [vp] .vpw-message-box.info {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box.warning {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box.success {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box.default {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box a {
+    color: inherit; }
+</style><style type="text/css">[vp] .vpw-box {
+  width: calc(100%);
+  height: 40px;
+  font-size: 1em;
+  color: #000;
+  opacity: 1;
+  position: relative;
+  background-color: #003F86;
+  color: #ffffff;
+  background-size: 100% 100%;
+  z-index: 2; }
+  [vp] .vpw-box .vpw-mes {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif; }
+</style><style type="text/css">[vp] .vpw-btn-close {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 7;
+  cursor: pointer; }
+  [vp] .vpw-btn-close.active {
+    display: block; }
+  [vp] .vpw-btn-close .vpw-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 37.92px;
+    height: 37.92px;
+    right: 5px; }
+</style><style type="text/css">[vp] [vp-rate-button] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 60px;
+  z-index: 2;
+  visibility: hidden;
+  max-width: 0;
+  opacity: 0;
+  transition: max-width 0s, visibility 0s, opacity 0.4s; }
+  [vp] [vp-rate-button] .vp-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    margin-bottom: 20px;
+    z-index: 1;
+    cursor: pointer; }
+    [vp] [vp-rate-button] .vp-button img {
+      width: 43px;
+      margin-right: -13px;
+      margin-bottom: -13px;
+      max-width: none; }
+  [vp] [vp-rate-button].vp-enabled {
+    z-index: 2;
+    visibility: visible;
+    max-width: 100%;
+    opacity: 1; }
+</style><style type="text/css">[vp] [vp-rate-box] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 68px;
+  overflow: hidden;
+  z-index: 2; }
+  [vp] [vp-rate-box] .vp-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.96);
+    max-height: 0;
+    transform: translateY(69px);
+    transition: max-height 0s, transform 0.4s linear 0.05s; }
+    [vp] [vp-rate-box] .vp-container .vp-text {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #003f86; }
+    [vp] [vp-rate-box] .vp-container .vp-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 10px; }
+      [vp] [vp-rate-box] .vp-container .vp-buttons .vp-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 13px;
+        font-weight: bold;
+        color: #545454;
+        cursor: pointer; }
+        [vp] [vp-rate-box] .vp-container .vp-buttons .vp-button:not(:last-child) {
+          margin-right: 22px; }
+        [vp] [vp-rate-box] .vp-container .vp-buttons .vp-button img {
+          height: 22px;
+          margin-right: 6px; }
+  [vp] [vp-rate-box].vp-enabled {
+    z-index: 4; }
+    [vp] [vp-rate-box].vp-enabled .vp-container {
+      max-height: 100%;
+      transform: translateY(0);
+      transition: transform 0.4s, max-height 0s linear 0.4s; }
+</style><style type="text/css">[vp] [vp-suggestion-button] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 68px;
+  z-index: 2; }
+  [vp] [vp-suggestion-button] .vp-bounderies {
+    width: 100%;
+    overflow: hidden; }
+    [vp] [vp-suggestion-button] .vp-bounderies .vp-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: rgba(255, 255, 255, 0.96);
+      z-index: 1;
+      transform: translateY(69px);
+      transition: transform 0.4s;
+      transition-delay: 0.4s; }
+      [vp] [vp-suggestion-button] .vp-bounderies .vp-container .vp-open-screen-button {
+        margin-bottom: 16px; }
+  [vp] [vp-suggestion-button] .vp-button-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.4s; }
+    [vp] [vp-suggestion-button] .vp-button-container .vp-close-button {
+      position: absolute;
+      bottom: -13px; }
+  [vp] [vp-suggestion-button].vp-enabled {
+    z-index: 4; }
+    [vp] [vp-suggestion-button].vp-enabled .vp-container {
+      transform: translateY(0);
+      transition-delay: 0s; }
+    [vp] [vp-suggestion-button].vp-enabled .vp-button-container {
+      opacity: 1;
+      transition-delay: 0.4s; }
+</style><style type="text/css">[vp] [vp-suggestion-screen] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: white;
+  z-index: 3;
+  left: 100%;
+  transition: left 0.4s ease-in; }
+  [vp] [vp-suggestion-screen] .vp-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #003f86; }
+  [vp] [vp-suggestion-screen] .vp-text {
+    display: none;
+    flex: 1;
+    align-self: stretch;
+    margin-top: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 8px 10px 6px;
+    font-size: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: #EFEFF2; }
+  [vp] [vp-suggestion-screen] .vp-send-button {
+    margin-top: 14px; }
+  [vp] [vp-suggestion-screen] .vp-close-button {
+    margin-top: 8px; }
+  [vp] [vp-suggestion-screen].vp-enabled {
+    left: 0;
+    transition: left 0.4s ease-out 0.8s; }
+</style><style type="text/css">[vp] [vp-change-avatar] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 2;
+  visibility: hidden;
+  max-width: 100%;
+  opacity: 1;
+  transition: max-width 0s, visibility 0s, opacity 0.4s;
+  left: 13px;
+  top: 50px; }
+  [vp] [vp-change-avatar] .vp-button-change-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.45); }
+    [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-female {
+      display: block;
+      width: 15px;
+      margin-right: 1px;
+      filter: brightness(0) invert(1); }
+    [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-male {
+      display: none;
+      width: 16px;
+      margin-left: 1px;
+      filter: brightness(0) invert(1); }
+  [vp] [vp-change-avatar].vp-disabled {
+    visibility: visible; }
+</style><style type="text/css">[vp] [vp-blue-button] {
+  padding: 7px 16px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #003f86;
+  cursor: pointer; }
+
+[vp] [vp-close-button] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: #b3b3b3;
+  cursor: pointer; }
+  [vp] [vp-close-button] img {
+    width: 100%; }
+</style><style type="text/css">[vw] [vw-access-button] {
+  display: none;
+  width: 140px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 0px 0px -100px;
+  max-width: none; }
+  [vw] [vw-access-button].active {
+    display: block; }
+  [vw] [vw-access-button] .access-button {
+    width: 27%;
+    float: right; }
+  [vw] [vw-access-button] span {
+    font-size: 13px;
+    color: #004088; }
+  [vw] [vw-access-button] .access-button:hover + .pop-up {
+    width: 68%; }
+  [vw] [vw-access-button] .pop-up {
+    float: right;
+    width: 0%;
+    margin-right: 6px;
+    -webkit-transition: width 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s; }
+  [vw] [vw-access-button] .pop-up.left {
+    float: left !important;
+    margin-right: 0px; }
+  [vw] [vw-access-button] .access-button.left {
+    float: left !important;
+    margin-right: 6px; }
+</style><style type="text/css">.vw-links {
+  top: -100px;
+  left: -100px;
+  position: absolute; }
+  .vw-links .vw-tooltip {
+    position: relative;
+    opacity: 1; }
+    .vw-links .vw-tooltip__item {
+      text-align: center;
+      position: absolute;
+      min-width: 123px;
+      padding: 8px;
+      visibility: hidden;
+      opacity: 0;
+      background: white;
+      transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
+      color: #484848;
+      border: 1px solid #cecece;
+      border-radius: 3px;
+      font-weight: 500;
+      box-shadow: 0 2px 1px #bcbcbc;
+      z-index: 4; }
+      .vw-links .vw-tooltip__item:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid; }
+    .vw-links .vw-tooltip__initiator {
+      cursor: pointer;
+      z-index: 5; }
+    .vw-links .vw-tooltip .vw-tooltip__item {
+      top: calc(100% + 1em);
+      left: 50%;
+      transform: translate3d(-50%, -15px, 0); }
+      .vw-links .vw-tooltip .vw-tooltip__item:after {
+        top: -0.5em;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        border-width: 0 0.5em 0.5em 0.5em;
+        border-color: transparent transparent white transparent;
+        -webkit-filter: drop-shadow(1px 2px 1px #bcbcbc);
+        filter: drop-shadow(1px -1px 1px #bcbcbc); }
+    .vw-links .vw-tooltip.active > .vw-tooltip__item {
+      transform: translate3d(-50%, 0, 0);
+      visibility: visible;
+      opacity: 1; }
+
+[vw].maximize [vw-plugin-wrapper] {
+  width: 100%;
+  height: 100% !important;
+  max-height: initial !important; }
+
+[vw].left [vw-plugin-wrapper] {
+  float: left; }
+
+[vw] [vw-plugin-wrapper] {
+  display: none;
+  width: 300px;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+  background-color: white !important;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(121, 76, 76, 0.15);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.15); }
+  [vw] [vw-plugin-wrapper].active {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 450px;
+    max-width: 100%;
+    overflow: hidden;
+    min-height: 100%; }
+</style><style type="text/css">[vw] {
+  /* HTML5 display-role reset for older browsers */ }
+  [vw] html, [vw] body, [vw] div, [vw] span, [vw] applet, [vw] object, [vw] iframe,
+  [vw] h1, [vw] h2, [vw] h3, [vw] h4, [vw] h5, [vw] h6, [vw] p, [vw] blockquote, [vw] pre,
+  [vw] a, [vw] abbr, [vw] acronym, [vw] address, [vw] big, [vw] cite, [vw] code,
+  [vw] del, [vw] dfn, [vw] em, [vw] img, [vw] ins, [vw] kbd, [vw] q, [vw] s, [vw] samp,
+  [vw] small, [vw] strike, [vw] strong, [vw] sub, [vw] sup, [vw] tt, [vw] var,
+  [vw] b, [vw] u, [vw] i, [vw] center,
+  [vw] dl, [vw] dt, [vw] dd, [vw] ol, [vw] ul, [vw] li,
+  [vw] fieldset, [vw] form, [vw] label, [vw] legend,
+  [vw] table, [vw] caption, [vw] tbody, [vw] tfoot, [vw] thead, [vw] tr, [vw] th, [vw] td,
+  [vw] article, [vw] aside, [vw] canvas, [vw] details, [vw] embed,
+  [vw] figure, [vw] figcaption, [vw] footer, [vw] header, [vw] hgroup,
+  [vw] menu, [vw] nav, [vw] output, [vw] ruby, [vw] section, [vw] summary,
+  [vw] time, [vw] mark, [vw] audio, [vw] video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block; }
+  [vw] article, [vw] aside, [vw] details, [vw] figcaption, [vw] figure,
+  [vw] footer, [vw] header, [vw] hgroup, [vw] menu, [vw] nav, [vw] section {
+    display: block; }
+  [vw] body {
+    line-height: 1; }
+  [vw] ol, [vw] ul {
+    list-style: none; }
+  [vw] blockquote, [vw] q {
+    quotes: none; }
+  [vw] blockquote:before, [vw] blockquote:after,
+  [vw] q:before, [vw] q:after {
+    content: '';
+    content: none; }
+  [vw] table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+</style><style type="text/css">@media (max-width: 450px) {
+  div[vw] canvas {
+    min-height: unset !important;
+    min-width: unset !important;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    -o-filter: blur(0px);
+    filter: blur(0px);
+    min-height: calc(0.35 * 680px) !important;
+    min-width: calc(0.35 * 420px) !important; }
+  div[vw] [vw-plugin-wrapper].active {
+    height: 358px !important;
+    width: 210px !important; }
+  #gameContainer {
+    display: flex !important;
+    justify-content: center !important;
+    top: -75px !important;
+    left: -90px !important;
+    width: 100% !important;
+    height: 70% !important; }
+  [vp] [vp-controls] {
+    left: 36% !important;
+    bottom: 20% !important;
+    background: white; }
+  [vp] .vpw-controls-slider {
+    width: 27% !important; }
+  [vp] .vpw-box .vpw-mes {
+    left: 36% !important;
+    font-size: 12px !important; }
+  [vp] .vpw-settings-btn .vpw-settings-btn-close, [vp] .vpw-btn-close .vpw-img {
+    right: 100px; }
+  [vp] [vp-rate-box].vp-enabled .vp-container {
+    margin-right: 70px;
+    margin-bottom: 80px; }
+  [vp] [vp-rate-button] .vp-button {
+    margin-right: 110px;
+    margin-bottom: 130px; }
+  [vp] [vp-rate-button] .vp-button img {
+    width: 32px;
+    margin-bottom: -37px;
+    margin-right: -14px; }
+  [vp] .vpw-message-box {
+    font-size: 0.7em; }
+    [vp] .vpw-message-box .vpw-message {
+      margin-left: 10px;
+      margin-right: 93px;
+      margin-bottom: 3px; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo {
+    left: 39%;
+    bottom: 125px; }
+  [vp] .vpw-settings .vpw-content > ul {
+    margin-left: -20px; }
+  [vp] .vpw-settings .vpw-content > ul li .vpw-name {
+    font-size: 12px; }
+  [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-flag {
+    right: 88px;
+    height: 24px; }
+  [vp] .vpw-switch {
+    width: 48px;
+    height: 15px;
+    margin-top: -10px;
+    right: 64px; }
+  [vp] .vpw-slider-check.vpw-round:before {
+    top: -3px; }
+  [vp] .vpw-slider-check:before {
+    height: 21px;
+    width: 20px;
+    left: -20;
+    bottom: 4px; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-logo {
+    width: 80%; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-vlibras-span {
+    left: 41%;
+    bottom: 15%; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo {
+    left: 39%;
+    transform: translateX(-50%);
+    bottom: 125px; }
+  [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-abbrev {
+    right: 65px; }
+  [vp] .vpw-controls-dictionary:not(.vpw-loading-dictionary):before {
+    font-size: 12px; }
+  [vp] .vpw-info-screen #vpw-info-tab-bullets {
+    right: 47px;
+    bottom: 100px; }
+  [vp] .vpw-info-screen .vpw-arrow-right.active {
+    right: 94px;
+    position: absolute;
+    top: 137px;
+    z-index: 4; }
+  [vp] .vpw-info-screen .vpw-arrow-left.active {
+    right: initial;
+    position: absolute;
+    top: 137px;
+    z-index: 4; }
+  [vp] .vpw-info-screen #vpw-info-main.active {
+    font-size: 0.7125em;
+    margin-right: 99px;
+    margin-bottom: 136px; }
+  [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label {
+    margin-top: -27px; }
+  [vp] .vpw-info-screen #vpw-info-realizadores.active {
+    font-size: 0.7125em;
+    margin-right: 81px;
+    margin-bottom: 113px; }
+  [vp] .vpw-settings .vpw-content .vpw-flag {
+    height: 18px; }
+  [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions {
+    margin-top: -1%;
+    margin-bottom: -2px; }
+  [vp] .vpw-settings .vpw-content > .vpw-localism {
+    width: 71%; }
+  [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions {
+    left: -3px !important; }
+  [vp] .vpw-dictionary .vpw-dict-container {
+    width: 64%;
+    height: 44%;
+    left: 44%; }
+  [vp] .vpw-bar .vpw-title {
+    margin-right: 40px; }
+  [vp] .vpw-dictionary .vpw-panel .vpw-search input {
+    width: 73%;
+    left: 39%; }
+  [vp] .vpw-dictionary .vpw-panel .vpw-search .vpw-icon img {
+    right: 70px; }
+  [vp] [vp-dictionary] {
+    right: 18px !important; }
+  [vp] .vpw-dictionary .vpw-dict-container ul li:not(.margin) {
+    padding: 5px; }
+  [vp] [vp-suggestion-button].vp-enabled {
+    right: 40px;
+    bottom: 150px !important; }
+  [vp] [vp-suggestion-screen] {
+    width: 72%;
+    height: 60%;
+    top: 41px; }
+  [vp] [vp-change-avatar] {
+    left: 9px;
+    top: 265px; }
+    [vp] [vp-change-avatar] .vp-button-change-avatar {
+      width: 30px;
+      height: 30px; }
+      [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-female {
+        width: 15px; }
+      [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-male {
+        width: 15px; } }
+
+div[vw] {
+  position: fixed;
+  max-width: 95vw;
+  right: 0;
+  top: 60%;
+  margin-top: -32vh;
+  z-index: 99999999;
+  display: none;
+  font-family: Arial;
+  color: #000;
+  line-height: 1.3; }
+  div[vw].enabled {
+    display: block; }
+  div[vw].active {
+    margin-top: -285px; }
+  div[vw].maximize {
+    top: 6vh;
+    left: 6vh;
+    right: 6vh;
+    bottom: 6vh;
+    max-width: initial;
+    margin-top: 0; }
+  div[vw].left {
+    left: 0;
+    right: initial; }
+  div[vw] #gameContainer {
+    position: absolute !important;
+    top: -25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto !important;
+    min-height: calc(0.70 * 450px);
+    min-width: calc(0.90 * 300px);
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 0px; }
+    div[vw] #gameContainer canvas {
+      min-height: calc(0.70 * 450px);
+      min-width: calc(0.90 * 300px);
+      height: 100%;
+      width: 100%;
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -ms-filter: blur(0px);
+      -o-filter: blur(0px);
+      filter: blur(0px); }
+  div[vw] [vp] {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+    min-height: 450px;
+    z-index: 1;
+    overflow: hidden; }
+    div[vw] [vp] [vp-message-box] {
+      position: absolute;
+      z-index: 5; }
+    div[vw] [vp] [vp-info-screen] {
+      z-index: 3; }
+      div[vw] [vp] [vp-info-screen] #info-text {
+        font-size: 1em !important; }
+      div[vw] [vp] [vp-info-screen] #info-realizadores {
+        font-size: 11px !important; }
+    div[vw] [vp] [vp-controls] {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0%;
+      max-width: 900px;
+      z-index: 2; }
+    div[vw] [vp] [vp-settings-btn] {
+      z-index: 2; }
+    div[vw] [vp] [vp-dictionary] {
+      z-index: 8; }
+    div[vw] [vp] [vp-rate-box] {
+      bottom: 58px; }
+    div[vw] [vp] [vp-suggestion-button].vp-enabled, div[vw] [vp] [vp-suggestion-button] {
+      bottom: 58px; }
+    div[vw] [vp] [vp-suggestion-screen] {
+      top: 41px; }
+
+.vw-text:hover {
+  background-color: rgba(0, 63, 134, 0.2);
+  color: #000;
+  cursor: pointer; }
+
+.vw-text-active {
+  background-color: rgba(30, 63, 134, 0.2);
+  color: #000; }
+</style><script charset="utf-8" src="https://platform.twitter.com/js/moment~timeline~tweet.f41b02dcb58512d8e9f6d4178eb28452.js"></script><script charset="utf-8" src="https://platform.twitter.com/js/tweet.25ae5aee3c2602da5d36fbf6c51215cf.js"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style></head>
+  <body class="default-header-template cover-layout-layout-vazio template-view portaltype-collective-cover-content site-PortalCGU section-cgu userrole-anonymous" dir="ltr" data-portal-url="http://www.cgu.gov.br" data-base-url="http://localhost/VirtualHostBase/http/www.cgu.gov.br:80/dados_portalcgu/PortalCGU/VirtualHostRoot/noticias/2019/10/cgu-abre-inscricoes-para-forum-o-controle-no-combate-a-corrupcao?fbclid=IwAR1BcIc2je7lsxmaOJo9qACvKBM0WnmgmYcj4oTNOHJsl7EbjPFMA6LzgcU"><div id="barra-identidade">
+    <div id="barra-brasil"><div class="conteudo-escondido"> <a accesskey="1" href="#conteudo">Ir para o conteúdo</a> </div><div class="conteudo-barra-brasil"> <a href="https://gov.br/" class="pic-gov" title="GovBR">GovBR</a> <nav id="menu-barra-brasil" onscroll="checkScrollBarra(this);"> <ul class="lista-barra-brasil"> <li class="list-item"> <a href="http://www.acessoainformacao.gov.br" class="link-barra link-externo-barra">Acesso à informação</a> </li> <li class="espacador"></li> <li class="list-item"> <a href="https://www.gov.br/pt-br/participacao-social/" class="link-barra link-externo-barra">Participe</a> </li> <li class="espacador"></li> <li class="list-item"> <a href="http://www4.planalto.gov.br/legislacao/" class="link-barra link-externo-barra">Legislação</a> </li> <li class="espacador"></li> <li class="list-item"> <a href="javascript:toggleOrgaosGoverno();" id="link-orgaos" class="link-barra link-interno-barra link-baixo-barra">Órgãos do Governo</a> </li> </ul> </nav> <a href="javascript:scrollBarra();" id="botao-seta-direita" class="botao-seta-direita"><i class="arrow right">Navegar para direita</i></a> </div><div class="orgaos-governo-barra" id="orgaos-governo-barra"> <div> <ul> <li class="orgao-barra"> <a href="http://www.casacivil.gov.br/">Casa Civil</a> </li> <li class="orgao-barra"> <a href="http://www.justica.gov.br/">Ministério da Justiça e Segurança Pública</a> </li> <li class="orgao-barra"> <a href="https://www.defesa.gov.br/">Ministério da Defesa</a> </li> <li class="orgao-barra"> <a href="http://www.itamaraty.gov.br/">Ministério das Relações Exteriores</a> </li> <li class="orgao-barra"> <a href="http://www.economia.gov.br/">Ministério da Economia</a> </li> <li class="orgao-barra"> <a href="http://www.infraestrutura.gov.br/">Ministério da Infraestrutura</a> </li> <li class="orgao-barra"> <a href="http://www.agricultura.gov.br/">Ministério da Agricultura, Pecuária e Abastecimento</a> </li> <li class="orgao-barra"> <a href="http://www.mec.gov.br/">Ministério da Educação</a> </li> <li class="orgao-barra"> <a href="http://cidadania.gov.br/">Ministério da Cidadania</a> </li> <li class="orgao-barra"> <a href="http://saude.gov.br/">Ministério da Saúde</a> </li> <li class="orgao-barra"> <a href="http://www.mme.gov.br/">Ministério de Minas e Energia</a> </li> <li class="orgao-barra"> <a href="http://www.mctic.gov.br/">Ministério da Ciência, Tecnologia, Inovações e Comunicações</a> </li> <li class="orgao-barra"> <a href="http://www.mma.gov.br/">Ministério do Meio Ambiente</a> </li> <li class="orgao-barra"> <a href="http://www.turismo.gov.br/">Ministério do Turismo</a> </li> <li class="orgao-barra"> <a href="http://www.integracao.gov.br/">Ministério do Desenvolvimento Regional</a> </li> <li class="orgao-barra"> <a href="http://www.cgu.gov.br/">Controladoria-Geral da União</a> </li> <li class="orgao-barra"> <a href="http://www.mdh.gov.br/">Ministério da Mulher, da Família e dos Direitos Humanos</a> </li> <li class="orgao-barra"> <a href="http://www.secretariageral.gov.br/">Secretaria-Geral</a> </li> <li class="orgao-barra"> <a href="http://www.secretariadegoverno.gov.br/">Secretaria de Governo</a> </li> <li class="orgao-barra"> <a href="http://www.gsi.gov.br/">Gabinete de Segurança Institucional</a> </li> <li class="orgao-barra"> <a href="http://www.agu.gov.br/">Advocacia-Geral da União</a> </li> <li class="orgao-barra"> <a href="http://www.bcb.gov.br/">Banco Central do Brasil</a> </li> <li class="orgao-barra"> <a href="http://www.gov.br/planalto">Planalto</a> </li></ul> </div></div></div>
+</div><ul id="skip-menu">
+      <li><a accesskey="1" href="#content">Ir para o conteúdo</a></li>
+      <li><a accesskey="2" href="#main-navigation">Ir para o menu</a></li>
+      <li><a accesskey="3" href="#portal-searchbox">Ir para a busca</a></li>
+      <li><a accesskey="4" href="#portal-footer">Ir para o rodapé</a></li>
+    </ul><!-- User --><!-- Header --><header id="main-header" class="inverter">
+      <div class="header-wrapper">
+          <div id="logo">
+    <a id="portal-logo" title="" href="http://www.cgu.gov.br">
+            
+            <div id="portal-title" class="luongo">Controladoria-Geral da União</div>
+            <span id="portal-description">Governo Federal</span>
+    </a>
+</div>
+
+          <div class="header-accessibility">
+            <ul>
+
+    <li id="siteaction-contraste">
+        <a href="#" accesskey="6">Alto Contraste</a>
+    </li>
+    <li id="siteaction-vlibras">
+        <a href="http://www.vlibras.gov.br/" accesskey="">VLibras</a>
+    </li>
+</ul>
+            
+          </div>
+
+      </div>
+      <!-- Segunda linha do header -->
+      <div class="search-wrapper">
+          <!-- icones -->
+          <div class="header-icons">
+            <a class="ico-navegacao">Navegação</a>
+          </div>
+          <div class="links-destaque">
+            <ul id="portal-services">
+        
+            <li id="portal-services-institucional-1549450284">
+                <a href="http://www.cgu.gov.br/sobre/institucional/quem-e-quem" title="">Quem é Quem</a>
+            </li>
+        
+            <li id="portal-services-agenda-1549450436">
+                <a href="http://www.cgu.gov.br/sobre/institucional/agenda-de-autoridades/agenda-de-autoridades" title="">Agenda</a>
+            </li>
+        
+            <li id="portal-services-eventos-1549450502">
+                <a href="http://www.cgu.gov.br/sobre/institucional/eventos" title="">Eventos</a>
+            </li>
+        
+            <li id="portal-services-imprensa-1549450314">
+                <a href="http://www.cgu.gov.br/area-imprensa/imprensa" title="">Imprensa</a>
+            </li>
+        
+    </ul>
+          </div>
+
+          <!-- Search -->
+          <div id="portal-searchbox">
+
+    
+
+    <form id="nolivesearchGadget_form" action="http://www.cgu.gov.br/@@busca">
+        
+        <fieldset class="LSBox">
+            <legend class="hiddenStructure">Buscar no portal</legend>
+            <label class="hiddenStructure" for="nolivesearchGadget">Buscar no portal</label>
+
+            <input name="SearchableText" type="text" size="18" title="Buscar no portal" placeholder="Buscar no portal" class="searchField" id="nolivesearchGadget">
+
+            <input class="searchButton" type="submit" value="Buscar no portal">
+
+        </fieldset>
+
+        
+    </form>
+
+    
+
+</div>
+      </div>
+      <!-- Main Menu -->
+      <div class="navigation-wrapper">
+
+        <div class="navigation-content">
+
+          <nav id="main-navigation" class="navigation-cell">
+              <ul class="list-navigation"><li id="portaltab-assuntos" class="plain"><a href="http://www.cgu.gov.br/assuntos" title="Temas que fazem parte da atuação da Controladoria-Geral da União (CGU)" class="plain">Assuntos</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/articulacao-internacional" title="Compromissos internacionais assumidos pelo Brasil, que tenham como objeto a prevenção e o combate à corrupção." class="state-published">
+            
+            Articulação Internacional
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/atividade-disciplinar" title="Consiste nas atividades relacionadas à apuração de possíveis irregularidades cometidas por servidores públicos e à aplicação das devidas penalidades." class="state-published">
+            
+            Atividade Disciplinar
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/auditoria-e-fiscalizacao" title="Seção apresenta as atividades desenvolvidas pela CGU, como órgão central do Sistema de Controle Interno do Poder Executivo Federal." class="state-published">
+            
+            Auditoria e Fiscalização
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/controle-social" title="Fomento permanente à participação social, a fim de que os cidadãos assumam o controle dos gastos públicos e a condição de co-autores da gestão pública." class="state-published">
+            
+            Controle Social
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/educacao-cidada" title="" class="state-published">
+            
+            Educação Cidadã
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/etica-e-integridade" title="CGU divulga medidas que visem aumentar os padrões de ética e de integridade no setor público e privado, inclusive de seus agentes no desempenho das funções. " class="state-published">
+            
+            Integridade
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/informacoes-estrategicas" title="Criar mecanismos de inteligência para monitorar os gastos dos recursos públicos é mais  uma linha de atuação da CGU na busca pela prevenção da corrupção. " class="state-published">
+            
+            Informações Estratégicas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/ouvidoria" title="CGU recebe manifestações como denúncias, solicitações, sugestões, reclamações ou elogios sobre procedimentos e ações de agentes, órgãos e entidades do Poder Executivo Federal." class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/responsabilizacao-de-empresas" title="Agora é lei: empresas serão responsabilizadas por atos praticados contra a administração pública." class="state-published">
+            
+            Responsabilização de Empresas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/transparencia-publica" title="Mecanismos que garantem maior publicidade dos atos da Administração Pública Federal e ampliam o acesso do cidadão às informações públicas, permitindo o exercício efetivo do controle social. " class="state-published">
+            
+            Transparência Pública
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-sobre" class="plain"><a href="http://www.cgu.gov.br/sobre" title="Conheça as competências, estrutura e histórico da Controladoria-Geral da União (CGU), além das demais informações institucionais." class="plain">Acesso à Informação</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/institucional" title="" class="state-published">
+            
+            Institucional
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/acoes-e-programas" title="Ações e Programas" class="state-published">
+            
+            Ações e programas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/governanca" title="" class="state-published">
+            
+            Governança
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/participacao-social" title="" class="state-published">
+            
+            Participação Social
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/auditorias" title="Auditorias" class="state-published">
+            
+            Auditorias
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/convenios" title="Convênios" class="state-published">
+            
+            Convênios e Transferências
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/demonstracoes-contabeis" title="" class="state-published">
+            
+            Demonstrações Contábeis
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/despesas" title="Despesas" class="state-published">
+            
+            Despesas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/licitacoes-e-contratos" title="Licitações e Contratos" class="state-published">
+            
+            Licitações e contratos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/servidores" title="" class="state-published">
+            
+            Servidores
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/informacoes-classificadas" title="" class="state-published">
+            
+            Informações classificadas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/servico-informacoes-cidadao-sic" title="" class="state-published">
+            
+            Serviço de Informações ao Cidadão - SIC
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/dados-abertos" title="" class="state-published">
+            
+            Dados Abertos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/perguntas-frequentes" title="" class="state-published">
+            
+            Perguntas frequentes - FAQ
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/legislacao" title="" class="state-published">
+            
+            Legislação
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-Publicacoes" class="plain"><a href="http://www.cgu.gov.br/Publicacoes" title="" class="plain">Publicações</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/articulacao-internacional" title="" class="state-published">
+            
+            Articulação Internacional
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/atividade-disciplinar" title="" class="state-published">
+            
+            Atividade Disciplinar
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/auditoria-e-fiscalizacao" title="" class="state-published">
+            
+            Auditoria e Fiscalização
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/institucionais" title="" class="state-published">
+            
+            Institucionais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/controle-social" title="" class="state-published">
+            
+            Controle Social
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/etica-e-integridade" title="" class="state-published">
+            
+            Ética e Integridade
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/gestao-do-conhecimento" title="" class="state-published">
+            
+            Gestão do Conhecimento
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/orientacoes-aos-gestores" title="" class="state-published">
+            
+            Orientações aos Gestores
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/ouvidoria" title="" class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/transparencia-publica" title="" class="state-published">
+            
+            Transparência Pública
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/responsabilizacao-de-empresas" title="" class="state-published">
+            
+            Responsabilização de Empresas
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-centrais-de-conteudos" class="plain"><a href="http://www.cgu.gov.br/centrais-de-conteudos" title="" class="plain">Centrais de Conteúdos</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="http://www.cgu.gov.br/centrais-de-conteudos/gifs-e-videos" title="" class="state-published">
+            
+            Central de Vídeos e GIFs
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/centrais-de-conteudos/central-de-infograficos" title="" class="state-published">
+            
+            Central de Infográficos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/centrais-de-conteudos/paineis" title="" class="state-published">
+            
+            Central de Painéis
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li></ul>
+            <div class="navigation-redes navigation-cell">
+        <h3>Redes sociais</h3>
+        <ul class="portal-redes">
+            
+                <li class="portalredes-twitter portalredes-item">
+                    <a href="https://www.twitter.com/cguonline">Twitter</a>
+                </li>
+            
+                <li class="portalredes-youtube portalredes-item">
+                    <a href="https://www.youtube.com/cguoficial">YouTube</a>
+                </li>
+            
+                <li class="portalredes-facebook portalredes-item">
+                    <a href="https://www.facebook.com/cguonline">Facebook</a>
+                </li>
+            
+                <li class="portalredes-flickr portalredes-item">
+                    <a href="https://www.flickr.com/photos/cguoficial">Flickr</a>
+                </li>
+            
+                <li class="portalredes-rss portalredes-item">
+                    <a href="rss">RSS</a>
+                </li>
+            
+        </ul>
+    </div>
+          </nav>
+
+
+        </div>
+      </div>
+    </header><div id="portal-breadcrumbs" class="inverter">
+    <span id="breadcrumbs-you-are-here">Você está aqui:</span>
+    <span id="breadcrumbs-home">
+        <a href="http://www.cgu.gov.br">Página Inicial</a>
+        
+    </span>
+    
+
+</div><div id="wrapper">
+
+
+      <!-- Columns -->
+
+
+      <div id="main">
+        
+
+        <main id="main-content" role="main">
+
+            <div id="viewlet-above-content">
+
+<div id="viewlet-tileshare" data-title-fb="Compartilhar no Facebook (abre em nova janela)" data-title-twitter="Tweet (abre em nova janela)" data-title-linkedin="Compartilhar no Linkedin  (abre em nova janela)" data-title-gplus="Compartilhar no Google+  (abre em nova janela)" data-title-link="Copiar para área de transferência" data-title-more="Mais opções">
+</div>
+</div>
+
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+    
+
+
+                    
+                        <div id="content">
+
+                            
+
+                            
+    
+    
+        
+            
+                
+    
+
+        
+            
+            
+                <div class="row linha-destaquetopo topo-com-degrade">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-12 tile-default " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="b64d15d2-fbf0-4171-a3f9-4af164633c8c">
+                        
+  
+
+  <div class="nitf-basic-tile tile-content">
+    
+      
+        <h1><a href="http://www.cgu.gov.br/noticias/2019/10/cgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao">CGU e PF desarticulam organização responsável por fraudar licitação do Programa Viva Maranhão</a></h1>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+        <a class="imag" href="http://www.cgu.gov.br/noticias/2019/10/cgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao" title="Investigações apontam direcionamento de contratação. Funcionários das empresas investigadas atuaram diretamente na elaboração do edital da licitação">
+          <img src="http://www.cgu.gov.br/cgu/@@collective.nitf/b64d15d2-fbf0-4171-a3f9-4af164633c8c/@@images/e02ce361-7284-4a7c-9715-cebf4944e15d.png" class="left" alt="CGU e PF desarticulam organização responsável por fraudar licitação do Programa Viva Maranhão" width="1150" height="543">
+        </a>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+        <p class="tile-description">Investigações apontam direcionamento de contratação. Funcionários das empresas investigadas atuaram diretamente na elaboração do edital da licitação</p>
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <div class="visualClear"><!-- --></div>
+      
+    
+  <ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=CGU+e+PF+desarticulam+organiza%C3%A7%C3%A3o+respons%C3%A1vel+por+fraudar+licita%C3%A7%C3%A3o+do+Programa+Viva+Maranh%C3%A3o&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao&amp;title=CGU+e+PF+desarticulam+organiza%C3%A7%C3%A3o+respons%C3%A1vel+por+fraudar+licita%C3%A7%C3%A3o+do+Programa+Viva+Maranh%C3%A3o" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/noticias/2019/10/cgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul><ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao&amp;title=" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/noticias/2019/10/cgu-e-pf-desarticulam-organizacao-criminosa-responsavel-por-fraudar-licitacao-do-programa-viva-maranhao">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul></div>
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row tile-default">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-4 tile-default " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile foto-sobreposta topo-com-degrade" id="a3447e47a29a4df587d433b37ffc96b5">
+                        
+  
+
+  <div class="nitf-basic-tile tile-content">
+    
+      
+
+      
+        <p class="tile-subtitle">Capacitação</p>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+        <a class="imag" href="http://www.cgu.gov.br/noticias/2019/10/cgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica" title="Em parceria com o TCU, as aulas apresentarão temas como riscos e programas de integridade, conflito de interesse, nepotismo, transparência e denúncias">
+          <img src="http://www.cgu.gov.br/cgu/@@collective.nitf/a3447e47a29a4df587d433b37ffc96b5/@@images/bc80b256-3ad8-42c0-be11-2d650027f5f1.png" class="left" alt="CGU abre inscrições para curso sobre fundamentos da Integridade Pública" width="370" height="370">
+        </a>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+        <h3><a href="http://www.cgu.gov.br/noticias/2019/10/cgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica">CGU abre inscrições para curso sobre fundamentos da Integridade Pública</a></h3>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <div class="visualClear"><!-- --></div>
+      
+    
+  <ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica&amp;title=" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/noticias/2019/10/cgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul><ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=CGU+abre+inscri%C3%A7%C3%B5es+para+curso+sobre+fundamentos+da+Integridade+P%C3%BAblica&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica&amp;title=CGU+abre+inscri%C3%A7%C3%B5es+para+curso+sobre+fundamentos+da+Integridade+P%C3%BAblica" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/noticias/2019/10/cgu-abre-inscricoes-para-curso-sobre-fundamentos-da-integridade-publica">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul></div>
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-4 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile foto-sobreposta" id="bb14832ace034801b4562060c9278959">
+                        
+  
+
+  <div class="nitf-basic-tile tile-content">
+    
+      
+
+      
+        <p class="tile-subtitle">Participe</p>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+        <a class="imag" href="http://www.cgu.gov.br/noticias/2019/10/abertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto" title="Evento ocorre na Escola Nacional de Administração Pública (ENAP), em Brasília, nos dias 26 e 27 de novembro">
+          <img src="http://www.cgu.gov.br/cgu/@@collective.nitf/bb14832ace034801b4562060c9278959/@@images/edddc431-a205-4889-89bc-fa41342e2e93.png" class="left" alt="Abertas as inscrições para o 4º Encontro Brasileiro de Governo Aberto" width="370" height="370">
+        </a>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+        <h3><a href="http://www.cgu.gov.br/noticias/2019/10/abertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto">Abertas as inscrições para o 4º Encontro Brasileiro de Governo Aberto</a></h3>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <div class="visualClear"><!-- --></div>
+      
+    
+  <ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fabertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fabertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto&amp;title=" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fabertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/noticias/2019/10/abertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul><ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=Abertas+as+inscri%C3%A7%C3%B5es+para+o+4%C2%BA+Encontro+Brasileiro+de+Governo+Aberto&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fabertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fabertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto&amp;title=Abertas+as+inscri%C3%A7%C3%B5es+para+o+4%C2%BA+Encontro+Brasileiro+de+Governo+Aberto" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fabertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/noticias/2019/10/abertas-as-inscricoes-para-o-4o-encontro-brasileiro-de-governo-aberto">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul></div>
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-4 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile foto-sobreposta" id="d6fbd0c6-a6d6-48fe-9cac-95ce88325da2">
+                        
+  
+
+  <div class="nitf-basic-tile tile-content">
+    
+      
+
+      
+        <p class="tile-subtitle">Ética</p>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+        <a class="imag" href="http://www.cgu.gov.br/noticias/2019/10/cgu-participa-do-lancamento-do-programa-de-integridade-do-mdr" title="Objetivo é promover uma cultura de ética e transparência em todas as esferas de atuação do ministério">
+          <img src="http://www.cgu.gov.br/cgu/@@collective.nitf/d6fbd0c6-a6d6-48fe-9cac-95ce88325da2/@@images/db54595f-4f94-4aa5-af2e-0fe66b7582e7.png" class="left" alt="CGU participa do lançamento do Programa de Integridade do MDR" width="750" height="400">
+        </a>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+        <h3><a href="http://www.cgu.gov.br/noticias/2019/10/cgu-participa-do-lancamento-do-programa-de-integridade-do-mdr">CGU participa do lançamento do Programa de Integridade do MDR</a></h3>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <div class="visualClear"><!-- --></div>
+      
+    
+  <ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-participa-do-lancamento-do-programa-de-integridade-do-mdr" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-participa-do-lancamento-do-programa-de-integridade-do-mdr&amp;title=" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-participa-do-lancamento-do-programa-de-integridade-do-mdr&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/noticias/2019/10/cgu-participa-do-lancamento-do-programa-de-integridade-do-mdr">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul><ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=CGU+participa+do+lan%C3%A7amento+do+Programa+de+Integridade+do+MDR&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-participa-do-lancamento-do-programa-de-integridade-do-mdr" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-participa-do-lancamento-do-programa-de-integridade-do-mdr&amp;title=CGU+participa+do+lan%C3%A7amento+do+Programa+de+Integridade+do+MDR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fnoticias%2F2019%2F10%2Fcgu-participa-do-lancamento-do-programa-de-integridade-do-mdr&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/noticias/2019/10/cgu-participa-do-lancamento-do-programa-de-integridade-do-mdr">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul></div>
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row tile-default">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-12 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="b6ffb227653a4b9eac69e76548c3ee2f">
+                        
+
+    <div class="outstanding-header tile-content">
+    
+
+      
+
+          <a class="outstanding-link" href="http://www.cgu.gov.br/noticias/ultimas-noticias">Mais Notícias</a>
+
+      
+
+      
+
+      
+
+        
+
+      
+    
+
+      
+
+      
+
+      
+
+        
+
+      
+    
+
+      
+
+      
+
+      
+
+        
+
+      
+    
+
+    </div>
+
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-12 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="b3721db2-1639-421b-99a3-506e8e4a75df">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><a data-mce-style="" style="" target="_self" title="" data-tippreview-image="" href="http://www.cgu.gov.br/sobre/institucional/eventos/2019/forum-o-controle-no-combate-a-corrupcao" data-tippreview-title="" data-mce-href="resolveuid/83ce77a42b1f479299d19e3712d945a6" class="internal-link" data-tippreview-enabled="false"><br><br><img src="http://www.cgu.gov.br/banners-da-home/FullbannerHome.jpg" alt="" data-mce-src="resolveuid/8000a8365034410a8c2a6fdcfba738c1" class="image-inline" title=""></a></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-12 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="d6c5c4b8-dcec-4cf1-ae7f-260d6af518b1">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><br data-mce-bogus="1"></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row linha-discreta">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-12 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="f4311f61-1f51-4b33-8cab-22d97d75109b">
+                        
+
+    <div class="outstanding-header tile-content">
+    
+
+      
+
+      
+
+        
+
+            
+            <h2 class="outstanding-title">Serviços</h2>
+            
+            
+
+        
+
+      
+
+      
+    
+
+    </div>
+
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row linha-discreta">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-4 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="fe70f6c263644328bd2bf6acf6dd503e">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><a style="" target="_self" title="" data-tippreview-image="" href="http://www.cgu.gov.br/assuntos/transparencia-publica/time-brasil" data-tippreview-title="" data-mce-href="resolveuid/610acc77b28e46eaa803c243fe66d82e" class="internal-link" data-tippreview-enabled="false"><img src="http://www.cgu.gov.br/banners-da-home/timebrasil.png" alt="" data-mce-src="resolveuid/99649e83a00643a692358c2d0f3e2b2f" class="image-inline" title=""></a></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="f763feba-8052-438b-9f12-043c49be771b">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><a style="" target="_self" title="" data-tippreview-image="" href="http://www.cgu.gov.br/assuntos/responsabilizacao-de-empresas/lei-anticorrupcao/acordo-leniencia" data-tippreview-title="" data-mce-href="resolveuid/10f38646205d4a1f9f834bee00b5d523" class="internal-link" data-tippreview-enabled="false"><img src="http://www.cgu.gov.br/imagens/acordodeleniencia.png" style="display: block; margin-left: auto; margin-right: auto;" title="" data-mce-src="resolveuid/305b7b13ac8147a88b0065cb70c77e57" data-mce-selected="1" alt="" class="image-inline"></a></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-4 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="ea448aef5b964e3eaaf11d5794c6ee54">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><a style="" target="_self" title="" data-tippreview-image="" href="http://www.cgu.gov.br/falabr" data-tippreview-title="" data-mce-href="resolveuid/5fbc45e05719490eb9c802e95964100c" class="internal-link" data-tippreview-enabled="false"><img src="http://www.cgu.gov.br/banners-da-home/falabrhome.png" alt="" data-mce-src="resolveuid/b098ddf7e8e44c3bb82811eb991823e1" class="image-inline" title=""></a></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="ecc3d786fd6a4470bc150cbe3050d892">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><a class="external-link" href="http://www.acessoainformacao.gov.br/" target="_blank" title="Faça seu pedido de acesso à informação" data-mce-href="http://www.acessoainformacao.gov.br/"><img src="http://www.cgu.gov.br/banners-da-home/copy_of_LAI.png" alt="Faça seu pedido de acesso a informações públicas" data-mce-src="resolveuid/36b0a493030541d3aecc50db0a008ace" class="image-inline" title="Faça seu pedido de acesso a informações públicas"></a></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-4 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="de8e8076a3294b95806fc19fed928ac0">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><a class="external-link" href="https://auditoria.cgu.gov.br/" target="_blank" title="Pesquisa de Relatórios da CGU" data-mce-href="https://auditoria.cgu.gov.br/"><img src="http://www.cgu.gov.br/banners-da-home/copy_of_PesquisadeRelatrio.png" alt="Pesquisa de Relatórios da CGU" data-mce-src="resolveuid/e7816100d8f04019be9f869886db743e" class="image-inline" title="Pesquisa de Relatórios da CGU"></a><span><br></span></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="c9f688cf-9bf7-46db-a3c3-c68f2a4bf52c">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><a style="" target="_self" title="" data-tippreview-image="" href="http://www.cgu.gov.br/sei" data-tippreview-title="" data-mce-href="resolveuid/ed2fc2f050144239a10a8c078780268d" class="internal-link" data-tippreview-enabled="false"><img src="http://www.cgu.gov.br/banners-da-home/sei.png" alt="" data-mce-src="resolveuid/5c91fb022e874395b590c8a6d75b8039" class="image-inline" title=""></a></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row tile-default">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-12 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="bb8327cb-dc40-450a-a131-c024201054ee">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><br data-mce-bogus="1"></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="c7d42b39-f4f6-4624-b1c5-2c638a04fca3">
+                        
+
+    <div class="outstanding-header tile-content">
+    
+
+      
+
+      
+
+        
+
+            
+            <h2 class="outstanding-title">Destaques</h2>
+            
+            
+
+        
+
+      
+
+      
+    
+
+    </div>
+
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row tile-default">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-6 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="a5707816-a38d-4042-bae0-b31baa871b0d">
+                        
+  
+
+  <div class="nitf-basic-tile tile-content">
+    
+      
+
+      
+        <p class="tile-subtitle">Ações Investigativas</p>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+        <h2><a href="http://cgu.gov.br/assuntos/auditoria-e-fiscalizacao/acoes-investigativas/operacoes-especiais">CGU e órgãos de defesa do Estado realizam operações de combate à corrupção</a></h2>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+        <p class="tile-description">Em dezesseis anos, já foram realizadas mais de 400 trabalhos. Soma do prejuízo total apurado é de mais de R$ 5 bilhões</p>
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <div class="visualClear"><!-- --></div>
+      
+    
+  </div>
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-6 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="d8430bfc-84fa-48cb-8987-3b9960b4e1d7">
+                        
+  
+
+  <div class="nitf-basic-tile tile-content">
+    
+      
+
+      
+        <p class="tile-subtitle">Educação Cidadã</p>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+        <h2><a href="https://educacaocidada.cgu.gov.br/programas/upt">CGU difunde cidadania e ética em escolas públicas de todo o Brasil</a></h2>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+        <p class="tile-description">Com apoio do Instituto Maurício de Sousa, iniciativa visa estimular ética e cidadania entre crianças</p>
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <div class="visualClear"><!-- --></div>
+      
+    
+  </div>
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row tile-default">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-4 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="a4a8a445-cfc9-41b8-b012-e7bf01e0388d">
+                        
+  
+
+  <div class="nitf-basic-tile tile-content">
+    
+      
+
+      
+        <p class="tile-subtitle">Oportunidade</p>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+        <h2><a href="http://ouvidorias.gov.br/cidadao/concurso-de-fotografia">Concurso de Fotografia “Cidadania em Foco"</a></h2>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+        <p class="tile-description">Iniciativa voltada a registros fotográficos sobre gestão pública, ética, controle social e cidadania</p>
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <div class="visualClear"><!-- --></div>
+      
+    
+  </div>
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-4 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="fe027a39-0204-4c55-b979-82a0de699f41">
+                        
+  
+
+  <div class="nitf-basic-tile tile-content">
+    
+      
+
+      
+        <p class="tile-subtitle">Ética</p>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+        <h2><a href="http://www.cgu.gov.br/assuntos/etica-e-integridade/programa-de-integridade">Planos de Integridade na Administração Pública</a></h2>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+        <p class="tile-description">Conheça a lista de órgãos e entidades que indicaram unidade de gestão de ética e fase de cada uma delas</p>
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <div class="visualClear"><!-- --></div>
+      
+    
+  <ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=Planos+de+Integridade+na+Administra%C3%A7%C3%A3o+P%C3%BAblica&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fassuntos%2Fetica-e-integridade%2Fprograma-de-integridade" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fassuntos%2Fetica-e-integridade%2Fprograma-de-integridade&amp;title=Planos+de+Integridade+na+Administra%C3%A7%C3%A3o+P%C3%BAblica" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fassuntos%2Fetica-e-integridade%2Fprograma-de-integridade&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/assuntos/etica-e-integridade/programa-de-integridade">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul></div>
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-4 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="c985cc99-95e8-4fb9-a9ce-47f737a53893">
+                        
+  
+
+  <div class="nitf-basic-tile tile-content">
+    
+      
+
+      
+        <p class="tile-subtitle">Corregedoria</p>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+        <h2><a href="http://www.cgu.gov.br/assuntos/responsabilizacao-de-empresas/avisos-e-notificacoes">Notificações e Intimações em PARs</a></h2>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+        <p class="tile-description">Confira avisos a pessoas jurídicas para que tenham ciência de processos de que estejam sendo acusadas</p>
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <div class="visualClear"><!-- --></div>
+      
+    
+  <ul class="share"><li class="share-item share-twitter share-pinned">
+      <a class="slPrivacy" title="Tweet (abre em nova janela)" href="https://twitter.com/intent/tweet?text=Notifica%C3%A7%C3%B5es+e+Intima%C3%A7%C3%B5es+em+PARs&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fassuntos%2Fresponsabilizacao-de-empresas%2Favisos-e-notificacoes" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+          Twitter
+      </a>
+    </li><li class="share-item share-linkedin">
+      <a class="slPrivacy" title="Compartilhar no Linkedin  (abre em nova janela)" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.cgu.gov.br%2Fassuntos%2Fresponsabilizacao-de-empresas%2Favisos-e-notificacoes&amp;title=Notifica%C3%A7%C3%B5es+e+Intima%C3%A7%C3%B5es+em+PARs" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        Linkedin
+      </a>
+    </li><li class="share-item share-gplus">
+      <a class="slPrivacy" title="Compartilhar no Google+  (abre em nova janela)" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.cgu.gov.br%2Fassuntos%2Fresponsabilizacao-de-empresas%2Favisos-e-notificacoes&amp;hl=pt-BR" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+         Google Plus
+      </a>
+    </li>
+      <li class="share-item share-link">
+        <a title="Copiar para área de transferência" href="http://www.cgu.gov.br/assuntos/responsabilizacao-de-empresas/avisos-e-notificacoes">Link</a>
+      </li>
+      <li class="share-more share-pinned">
+        <a title="Mais opções" href="#">...</a>
+      </li>
+    </ul></div>
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-12 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="a2210bd5-d441-439b-b1e0-77e230bbb656">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><a href="http://www.portaltransparencia.gov.br/" data-mce-href="http://www.portaltransparencia.gov.br/" title="" target="_blank" style="" data-tippreview-enabled="false" data-tippreview-image="" data-tippreview-title="" class="external-link"><img src="http://www.cgu.gov.br/portal.png" alt="" data-mce-src="resolveuid/4addbf02eec143bbac3dcefe7d1b973a" class="image-inline" title=""></a></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="b4e7c4de-887a-44d7-85f7-5ab9520ec29d">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><br data-mce-bogus="1"></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row linha-discreta">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-12 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="e5d4ea18bffb46d0968a76758a217f54">
+                        
+
+    <div class="outstanding-header tile-content">
+    
+
+      
+
+      
+
+        
+
+            
+            <h2 class="outstanding-title">Redes Sociais: + Curtidas</h2>
+            
+            
+
+        
+
+      
+
+      
+    
+
+    </div>
+
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+                
+    
+
+        
+            
+            
+                <div class="row linha-discreta">
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-6 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="c495a798500e488aa5d5685ae1beb6ac">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcguonline%2Fphotos%2Fa.379439358766803%2F2694784897232226%2F%3Ftype%3D3&amp;width=500" style="border:none;overflow:hidden" scrolling="no" allowtransparency="true" allow="encrypted-media" width="500" height="740" frameborder="0"></iframe>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="fc249114-be20-4fff-95e8-0509ea75ed7e">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <p><br data-mce-bogus="1"></p>
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+                        
+    
+        
+            
+                
+                
+                    <div class="column col-md-3 " data-panel="">
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="c232fba5-b57a-4161-b658-19ce814812d6">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <twitter-widget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-0" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="1185195074541383680"></twitter-widget> 
+
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+                            
+    
+        
+
+            
+                
+                    
+
+                    <div class="tile tile-default" id="ceff807e-f05c-45d5-8909-422b94ec6d92">
+                        
+    
+        
+        <div class="cover-richtext-tile tile-content">
+        
+            
+                <twitter-widget class="twitter-tweet twitter-tweet-rendered" id="twitter-widget-1" style="position: static; visibility: visible; display: block; transform: rotate(0deg); max-width: 100%; width: 500px; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="1185164875548516353"></twitter-widget> 
+
+
+
+
+            
+        
+        </div>
+    
+
+                    </div>
+                
+            
+
+            
+
+            
+
+        
+    
+
+
+                        
+
+                    </div>
+                
+            
+        
+    
+
+
+                    
+
+                </div>
+            
+        
+
+    
+
+
+            
+        
+    
+
+
+
+                        </div>
+                    
+
+                    
+                </div>
+            
+
+            <div id="viewlet-below-content"><div class="voltar-topo">
+    <a href="#wrapper">Voltar ao topo</a>
+</div>
+
+
+
+
+
+
+
+  <div class="texto-copyright">
+    <span omit-tag="">Todo o conteúdo deste site está publicado sob a licença</span> <a rel="license" href="https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR">Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada</a>.
+  </div>
+
+
+
+
+
+
+</div>
+        </main>
+        
+      </div>
+      <div class="conteudo-relacionado"></div>
+
+      <footer id="portal-footer">
+        <div class="footer-wrapper">
+
+          <div class="colunas-rodape">
+            <div class="coluna-redes">
+        <h3>Redes sociais</h3>
+        <ul class="portal-redes">
+            
+                <li class="portalredes-twitter portalredes-item">
+                    <a href="https://www.twitter.com/cguonline">Twitter</a>
+                </li>
+            
+                <li class="portalredes-youtube portalredes-item">
+                    <a href="https://www.youtube.com/cguoficial">YouTube</a>
+                </li>
+            
+                <li class="portalredes-facebook portalredes-item">
+                    <a href="https://www.facebook.com/cguonline">Facebook</a>
+                </li>
+            
+                <li class="portalredes-flickr portalredes-item">
+                    <a href="https://www.flickr.com/photos/cguoficial">Flickr</a>
+                </li>
+            
+                <li class="portalredes-rss portalredes-item">
+                    <a href="rss">RSS</a>
+                </li>
+            
+        </ul>
+    </div>
+            <div class="coluna-menu">
+              <ul class="rodape-navigation"><li id="portaltab-assuntos" class="plain"><a href="http://www.cgu.gov.br/assuntos" title="Temas que fazem parte da atuação da Controladoria-Geral da União (CGU)" class="plain">Assuntos</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/articulacao-internacional" title="Compromissos internacionais assumidos pelo Brasil, que tenham como objeto a prevenção e o combate à corrupção." class="state-published">
+            
+            Articulação Internacional
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/atividade-disciplinar" title="Consiste nas atividades relacionadas à apuração de possíveis irregularidades cometidas por servidores públicos e à aplicação das devidas penalidades." class="state-published">
+            
+            Atividade Disciplinar
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/auditoria-e-fiscalizacao" title="Seção apresenta as atividades desenvolvidas pela CGU, como órgão central do Sistema de Controle Interno do Poder Executivo Federal." class="state-published">
+            
+            Auditoria e Fiscalização
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/controle-social" title="Fomento permanente à participação social, a fim de que os cidadãos assumam o controle dos gastos públicos e a condição de co-autores da gestão pública." class="state-published">
+            
+            Controle Social
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/educacao-cidada" title="" class="state-published">
+            
+            Educação Cidadã
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/etica-e-integridade" title="CGU divulga medidas que visem aumentar os padrões de ética e de integridade no setor público e privado, inclusive de seus agentes no desempenho das funções. " class="state-published">
+            
+            Integridade
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/informacoes-estrategicas" title="Criar mecanismos de inteligência para monitorar os gastos dos recursos públicos é mais  uma linha de atuação da CGU na busca pela prevenção da corrupção. " class="state-published">
+            
+            Informações Estratégicas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/ouvidoria" title="CGU recebe manifestações como denúncias, solicitações, sugestões, reclamações ou elogios sobre procedimentos e ações de agentes, órgãos e entidades do Poder Executivo Federal." class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/responsabilizacao-de-empresas" title="Agora é lei: empresas serão responsabilizadas por atos praticados contra a administração pública." class="state-published">
+            
+            Responsabilização de Empresas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/assuntos/transparencia-publica" title="Mecanismos que garantem maior publicidade dos atos da Administração Pública Federal e ampliam o acesso do cidadão às informações públicas, permitindo o exercício efetivo do controle social. " class="state-published">
+            
+            Transparência Pública
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-sobre" class="plain"><a href="http://www.cgu.gov.br/sobre" title="Conheça as competências, estrutura e histórico da Controladoria-Geral da União (CGU), além das demais informações institucionais." class="plain">Acesso à Informação</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/institucional" title="" class="state-published">
+            
+            Institucional
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/acoes-e-programas" title="Ações e Programas" class="state-published">
+            
+            Ações e programas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/governanca" title="" class="state-published">
+            
+            Governança
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/participacao-social" title="" class="state-published">
+            
+            Participação Social
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/auditorias" title="Auditorias" class="state-published">
+            
+            Auditorias
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/convenios" title="Convênios" class="state-published">
+            
+            Convênios e Transferências
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/demonstracoes-contabeis" title="" class="state-published">
+            
+            Demonstrações Contábeis
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/despesas" title="Despesas" class="state-published">
+            
+            Despesas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/licitacoes-e-contratos" title="Licitações e Contratos" class="state-published">
+            
+            Licitações e contratos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/servidores" title="" class="state-published">
+            
+            Servidores
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/informacoes-classificadas" title="" class="state-published">
+            
+            Informações classificadas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/servico-informacoes-cidadao-sic" title="" class="state-published">
+            
+            Serviço de Informações ao Cidadão - SIC
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/dados-abertos" title="" class="state-published">
+            
+            Dados Abertos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/perguntas-frequentes" title="" class="state-published">
+            
+            Perguntas frequentes - FAQ
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/sobre/legislacao" title="" class="state-published">
+            
+            Legislação
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-Publicacoes" class="plain"><a href="http://www.cgu.gov.br/Publicacoes" title="" class="plain">Publicações</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/articulacao-internacional" title="" class="state-published">
+            
+            Articulação Internacional
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/atividade-disciplinar" title="" class="state-published">
+            
+            Atividade Disciplinar
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/auditoria-e-fiscalizacao" title="" class="state-published">
+            
+            Auditoria e Fiscalização
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/institucionais" title="" class="state-published">
+            
+            Institucionais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/controle-social" title="" class="state-published">
+            
+            Controle Social
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/etica-e-integridade" title="" class="state-published">
+            
+            Ética e Integridade
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/gestao-do-conhecimento" title="" class="state-published">
+            
+            Gestão do Conhecimento
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/orientacoes-aos-gestores" title="" class="state-published">
+            
+            Orientações aos Gestores
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/ouvidoria" title="" class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/transparencia-publica" title="" class="state-published">
+            
+            Transparência Pública
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/Publicacoes/responsabilizacao-de-empresas" title="" class="state-published">
+            
+            Responsabilização de Empresas
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-centrais-de-conteudos" class="plain"><a href="http://www.cgu.gov.br/centrais-de-conteudos" title="" class="plain">Centrais de Conteúdos</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="http://www.cgu.gov.br/centrais-de-conteudos/gifs-e-videos" title="" class="state-published">
+            
+            Central de Vídeos e GIFs
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/centrais-de-conteudos/central-de-infograficos" title="" class="state-published">
+            
+            Central de Infográficos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="http://www.cgu.gov.br/centrais-de-conteudos/paineis" title="" class="state-published">
+            
+            Central de Painéis
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li></ul>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <div id="footer-brasil"><div id="wrapper-footer-brasil"><a class="logo-acesso-footer" href="http://www.acessoainformacao.gov.br/" alt="Acesso à informação" title="Acesso à informação"></a><a class="logo-governo-federal" href="http://www.brasil.gov.br/" alt="Governo Federal" title="Governo Federal"></a></div></div>
+      </footer>
+
+    </div>
+    
+    
+      <script defer="defer" src="//barra.brasil.gov.br/barra_2.0.js"></script>
+    
+<script>
+      function onYouTubeIframeAPIReady() {
+        $(function() {
+          var $container = $('.portaltype-liveblog.template-view .linha-destaquetopo');
+          if ($container.length === 0) {
+            return;
+          }
+          var by = new brasilgovtemas.Youtube($container);
+          by.iframeIsReady();
+        });
+      }
+    </script><script type="text/javascript" src="/++theme++padrao/++theme++padrao/brasilgovtemas-3b1e9dc.js"></script><div id="plone-analytics"><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script><script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+    <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1665737-21");
+pageTracker._trackPageview();
+} catch(err) {}</script></div>
+<div><div vw="" class="enabled"><div vw-access-button="" class="active"><img class="access-button" data-src="assets/component-ac.png" src="https://vlibras.gov.br/app/assets/component-ac.png">
+<img class="pop-up" data-src="assets/popup.png" src="https://vlibras.gov.br/app/assets/popup.png"></div><div vw-plugin-wrapper=""><div vp="">
+  <div vp-box=""></div>
+  <div vp-message-box=""></div>
+  <div vp-settings=""></div>
+  <div vp-settings-btn=""></div>
+  <div vp-info-screen=""></div>
+  <div vp-dictionary=""></div>
+  <div vp-suggestion-screen=""></div>
+  <div vp-suggestion-button=""></div>
+  <div vp-rate-box=""></div>
+  <div vp-rate-button=""></div>
+  <div vp-controls=""></div>
+  <div vp-change-avatar=""></div>
+</div>
+</div></div></div><script src="https://vlibras.gov.br/app/vlibras-plugin.js" type="text/javascript"></script><div id="ajax-spinner" style="display: none;"><img src="http://www.cgu.gov.br/spinner.gif" alt=""></div><iframe scrolling="no" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2d991e3dfc9abb2549972ce8b64c5d85.html?origin=http%3A%2F%2Fwww.cgu.gov.br" title="Twitter settings iframe" style="display: none;" frameborder="0"></iframe><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><iframe name="fb_xdm_frame_https" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" style="border: medium none;" src="https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f12d6b6bdff406a&amp;origin=http%3A%2F%2Fwww.cgu.gov.br" frameborder="0"></iframe></div><div></div></div></div><iframe id="rufous-sandbox" scrolling="no" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: medium none;" title="Twitter analytics iframe" frameborder="0"></iframe></body></html>
