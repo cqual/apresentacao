@@ -4,10 +4,10 @@
 <script language="Javascript">
 	<!--hide
 	var password;
-	var pass="INPI100%Digital";
+	var pass="cqual";
 	password=prompt('Digite a senha:', '');
-	if(password!=pass)
-	alert('Senha incorreta. Digite novamente.');
+	if(password==pass)
+	alert('Senha correta');
 	else
 	{window.location="https://cqual.github.io/apresentacao/"; 
 	}
@@ -127,8 +127,11 @@ tr {
 							</li>
 						</ul>
 					</nav>
-					<div class="content-wrap">
-						<section id="section-underline-1">
+
+					
+
+<div class="content-wrap">
+<section id="section-underline-1">
 <table>
   <tr>
     <td><tx>07/11/2019</tx></td>
@@ -139,10 +142,12 @@ tr {
     <td><tx>05/10/2019</tx></td>
     <td><p>Elaboração dos fluxos dos processos dos macroprocessos da DIRAD<br>(ref. Entrega #02)</p></td>
   </tr>
-
 </table>
-						</section>
-						<section id="section-underline-2">
+</section>
+		
+	
+						
+<section id="section-underline-2">
 <table>
   <tr>
     <td><tx>07/11/2019</tx></td>
@@ -152,11 +157,13 @@ tr {
     <td><tx>07/11/2019</tx></td>
     <td><p>Preencher-previsto2<br>(ref. Entrega #01).</p></td>
   </tr>
-
 </table>
-						</section>
-						<section id="section-underline-3">
-						<p>(espaço para descrever o status).</p>
+</section>
+
+						
+						
+<section id="section-underline-3">
+<p>(espaço para descrever o status).</p>
 <table>
   <tr>
     <td><tx>07/11/2019</tx></td>
@@ -166,28 +173,34 @@ tr {
     <td><tx>07/11/2019</tx></td>
     <td><p>Preencher-status2<br>(ref. Entrega #01).</p></td>
   </tr>
+</table>							
+<div class="box bg-3">
+<a class="button button--tamaya button--round-s button--text-thick button--border-thin" data-text="Download" href="https://github.com/cqual/apresentacao/blob/master/docs/Plano%20de%20ação%20para%20identificação%20e%20tratamento%20dos%20riscos_28.05.19_final%20aprovada.xlsx" download><span>Status Report</span></a>
+</div>
+</section>
 
-</table>
-							
-							<div class="box bg-3">
-								<a class="button button--tamaya button--round-s button--text-thick button--border-thin" data-text="Download" href="https://github.com/cqual/apresentacao/blob/master/docs/Plano%20de%20ação%20para%20identificação%20e%20tratamento%20dos%20riscos_28.05.19_final%20aprovada.xlsx" download><span>Status Report</span></a>
-							</div>
-						</section>
-						<section id="section-underline-4">
-							<p>(espaço para descrever o cronograma).</p>
-							<div class="box bg-3">
-								<a class="button button--tamaya button--round-s button--text-thick button--border-thin" data-text="Download" href="https://github.com/cqual/apresentacao/raw/master/docs/Plano%20PI%20Digital%20-%20Cronograma.xlsx" download><span>Cronograma</span></a></button>
-							</div>
-						</section>
-						<section id="section-underline-5">
+
+	
+<section id="section-underline-4">
+<p>(espaço para descrever o cronograma).</p>
+<div class="box bg-3">
+<a class="button button--tamaya button--round-s button--text-thick button--border-thin" data-text="Download" href="https://github.com/cqual/apresentacao/raw/master/docs/Plano%20PI%20Digital%20-%20Cronograma.xlsx" download><span>Cronograma</span></a></button>
+</div>
+</section>
+		
+	
+					
+					
+<section id="section-underline-5">
 <p>Para cumprimento tempestivo deste Plano de Ação faz-se indispensável a manutenção mínima de 2 recursos humanos na CQUAL e a seleção de dois novos servidores pelo processo seletivo já em andamento e o Prosperity Fund Fase III como recursos para Mapeamento dos Processos.</p>
 <p>(espaço reservado para preenchimento - copiar/colar)</p>							
-							
-						</section>
-						
-						<section id="section-underline-6">
+</section>
+		
+					
+					
+<section id="section-underline-6">
 <table>
-  <tr>
+    <tr>
     <td><tx>07/11/2019</tx></td>
     <td><p>Preencher risco1<br></p></td>
   </tr>
@@ -195,8 +208,7 @@ tr {
   <tr>
     <td><tx>07/11/2019</tx></td>
     <td><p>Preencher risco 2<br>.</p></td>
-  </tr>
-		
+  </tr>		
   </div>
 </table>
 					
@@ -211,14 +223,16 @@ tr {
 </section>
 </div><!-- /content -->
 </div><!-- /tabs -->
+
+
 <script src="js/cbpFWTabs.js"></script>
 
 	<script>
-			(function() {
-
-				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
-					new CBPFWTabs( el );
-				});
+	(function() 
+	{
+	[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+	new CBPFWTabs( el );
+	});
 
 			})();
 		</script>
